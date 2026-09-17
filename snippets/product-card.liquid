@@ -9,7 +9,7 @@
           <span>Bestseller</span>
         </div>
       {% elsif product.tags contains 'onsale' %}
-        <div class="bg-red-50 text-red-600 px-2 py-1 text-xs rounded-full">⚡ Angebot</div>
+        <div class="bg-red-50 text-red-600 px-2 py-1 text-xs rounded-full">⚡ Offer</div>
       {% endif %}
     </div>
   {% endif %}
@@ -23,18 +23,18 @@
       width="{{ product.images.first.width }}"
     >
     {% unless product.tags contains 'Bundle_Price_Show' %}
-      <div class="card__promo-marquee absolute left-0 right-0 bottom-0 bg-[#137c44] text-white" aria-label="Köp 3, få 1 gratis">
+      <div class="card__promo-marquee absolute left-0 right-0 bottom-0 bg-[#137c44] text-white" aria-label="Buy 2, get 1 free">
         <div class="card__promo-marquee-rail">
           <div class="card__promo-marquee-group">
-            <span class="card__promo-marquee-text">2 KAUFEN, 1 GRATIS</span>
+            <span class="card__promo-marquee-text">BUY 2, GET 1 FREE</span>
             <span class="card__promo-marquee-dot" aria-hidden="true"></span>
-            <span class="card__promo-marquee-text">2 KAUFEN, 1 GRATIS</span>
+            <span class="card__promo-marquee-text">BUY 2, GET 1 FREE</span>
             <span class="card__promo-marquee-dot" aria-hidden="true"></span>
           </div>
           <div class="card__promo-marquee-group" aria-hidden="true">
-            <span class="card__promo-marquee-text">2 KAUFEN, 1 GRATIS</span>
+            <span class="card__promo-marquee-text">BUY 2, GET 1 FREE</span>
             <span class="card__promo-marquee-dot" aria-hidden="true"></span>
-            <span class="card__promo-marquee-text">2 KAUFEN, 1 GRATIS</span>
+            <span class="card__promo-marquee-text">BUY 2, GET 1 FREE</span>
             <span class="card__promo-marquee-dot" aria-hidden="true"></span>
           </div>
         </div>
@@ -107,7 +107,7 @@
         height="35"
       >
       <div>
-        <p class="text-xs my-0">Inspiriert von:</p>
+        <p class="text-xs my-0">Inspired by:</p>
         <h4 class="text-sm font-semibold my-0 line-clamp-1 inspiration_heading">{{ product.metafields.custom.inspiration.value.name }}</h4>
       </div>
     </div>
@@ -127,7 +127,7 @@
       class="hover:bg-[#17803d] bg-[#146b32] text-white uppercase text-sm font-semibold tracking-[2px] py-3 px-4 rounded-lg no-underline w-full text-center block" 
       href="{{ product.url }}"
     >
-      Jetzt kaufen
+      Buy now
     </a>
   </div>
 </div>
