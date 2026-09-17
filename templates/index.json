@@ -36,8 +36,6 @@
       "name": "Homepage Hero",
       "settings": {
         "background_color": "#ffffff",
-        "background_image": "shopify://shop_images/magic_header_1.png",
-        "mobile_background_image": "shopify://shop_images/magic_header_mobile_1.jpg",
         "title": "Smell luxurious – without the guilt.",
         "subtitle": "Premium-quality fragrance dupes",
         "button_text": "Find the scent that defines you.",
@@ -64,8 +62,6 @@
       "name": "TryScent Hero",
       "settings": {
         "background_color": "#fcfbf9",
-        "background_image": "shopify://shop_images/TryScent_Days.png",
-        "mobile_background_image": "shopify://shop_images/TryScent_Days_Mobile.png",
         "review_text": "LOVED BY 10,000 CUSTOMERS",
         "title": "Magic Perfume Days! Smell like the rich",
         "subtitle": "Your favorite scent. Premium quality. 95% less.",
@@ -120,8 +116,6 @@
       "name": "Image and Text",
       "settings": {
         "background_color": "#000000",
-        "bg_image": "shopify://shop_images/ChatGPT_Image_Feb_3_2026_04_24_58_PM.png",
-        "bg_mobile_image": "shopify://shop_images/ChatGPT_Image_Feb_3_2026_04_34_48_PM.png",
         "rounded_image": true,
         "image_placement": "1",
         "mobile_image_placement": "under_heading",
@@ -143,7 +137,6 @@
         "perks_dXcKFz": {
           "type": "perks",
           "settings": {
-            "perk_image": "shopify://shop_images/Screenshot_2026-02-03_at_12.00.15_PM.png",
             "perk_title": "Free shipping on orders over €55",
             "perk_content": "This week only"
           }
@@ -151,7 +144,6 @@
         "perks_x8n9DF": {
           "type": "perks",
           "settings": {
-            "perk_image": "shopify://shop_images/Screenshot_2026-02-03_at_12.04.49_PM.png",
             "perk_title": "Loyalty discounts for returning customers",
             "perk_content": "Vouchers worth up to €100"
           }
@@ -159,7 +151,6 @@
         "perks_yTdgqz": {
           "type": "perks",
           "settings": {
-            "perk_image": "shopify://shop_images/Screenshot_2026-02-03_at_12.05.39_PM.png",
             "perk_title": "Free gifts - samples",
             "perk_content": "With a personal message (up to 100 characters)"
           }
@@ -167,7 +158,6 @@
         "perks_7zj6gB": {
           "type": "perks",
           "settings": {
-            "perk_image": "shopify://shop_images/Screenshot_2026-02-03_at_12.07.45_PM.png",
             "perk_title": "Personal advice",
             "perk_content": "Daily from 8 a.m. to 8 p.m."
           }
@@ -243,7 +233,6 @@
       "name": "Image and Text",
       "settings": {
         "background_color": "#ffffff",
-        "image": "shopify://shop_images/WhatsApp_Image_2026-01-17_at_10.59.01.jpg",
         "rounded_image": true,
         "image_placement": "0",
         "mobile_image_placement": "under_heading",
@@ -416,7 +405,7 @@
           "type": "review",
           "settings": {
             "review_image": "shopify://shop_images/WhatsApp_Image_2026-09-09_at_8.35.55_AM.jpg",
-            "content": "<p>“This was my first order here and I am really impressed. I will not be buying my perfume anywhere else from now on. I had never found a fragrance dupe that smelled truly authentic and stayed consistently good before.”</p>",
+            "content": "<p>“This was my first order here and I am really impressed. I will not be buying my perfume anywhere else from now on. I had never found a fragrance dupe that smelled truly authentic and stayed consistently good before.” </p>",
             "author": "Sebastian Müller",
             "date": "vor 1 Tag",
             "rating": 5,
@@ -428,10 +417,8 @@
           "type": "review",
           "disabled": true,
           "settings": {
-            "review_image": "shopify://shop_images/WhatsApp_Image_2026-09-09_at_8.35.36_AM_1.jpg",
             "content": "<p>“Honestly, one of the best fragrances I have smelled in years. The notes are incredibly good. This is definitely staying in my collection.”</p>",
             "author": "Emilia Wagner",
-            "author_image": "shopify://shop_images/magic_ugc_female_01.webp",
             "date": "vor 2 Tagen",
             "rating": 4,
             "show_verified_badge": true,
@@ -441,7 +428,6 @@
         "review_XfwcAY": {
           "type": "review",
           "settings": {
-            "review_image": "shopify://shop_images/WhatsApp_Image_2026-09-09_at_8.35.37_AM.jpg",
             "content": "<p>“All three fragrances I ordered smell really good and last a long time, too. They are really close to the originals. The only thing was delivery, which took a little longer. But honestly – I still placed another order straight away 😄 You just need a little patience.”</p>",
             "author": "Clara P.",
             "date": "vor 2 Tagen",
@@ -453,7 +439,6 @@
         "review_icFmQQ": {
           "type": "review",
           "settings": {
-            "review_image": "shopify://shop_images/WhatsApp_Image_2026-09-09_at_8.33.40_AM.jpg",
             "content": "<p>“I spent ages looking for fragrances that smell high-quality and last a long time. This is exactly the kind of fragrance I was looking for.”</p>",
             "author": "Daniel Roth",
             "date": "vor 2 Tagen",
@@ -465,7 +450,6 @@
         "review_RnXXg9": {
           "type": "review",
           "settings": {
-            "review_image": "shopify://shop_images/2026-07-02_16h58_13.webp",
             "content": "<p>“I was not sure what to expect at first, but the scent really surprised me in a good way. It smells really fresh and comes very close to Aventus. It lasts well and the price is much better.”</p>",
             "author": "Michael T.",
             "date": "vor 2 Tagen",
@@ -477,7 +461,6 @@
         "review_aThE8h": {
           "type": "review",
           "settings": {
-            "review_image": "shopify://shop_images/magic_175_review.png",
             "content": "<p>“One of my absolute favorite fragrances. It arrived really quickly and smells great.”</p>",
             "author": "Jonas Hartmann",
             "date": "vor 2 Tagen",
@@ -489,7 +472,6 @@
         "review_YXwWcc": {
           "type": "review",
           "settings": {
-            "review_image": "shopify://shop_images/2026-07-02_16h55_49.webp",
             "content": "<p>“My girlfriend immediately said I smelled good 😄 I have been using it almost every day since.”</p>",
             "author": "Clara M.",
             "date": "vor 5 Tagen",
@@ -501,7 +483,6 @@
         "review_nQ6MLV": {
           "type": "review",
           "settings": {
-            "review_image": "shopify://shop_images/WhatsApp_Image_2026-09-09_at_8.35.50_AM.jpg",
             "content": "<p>“At first I was a little worried because delivery was delayed. But once the perfume arrived and the scent settled – wow, just incredibly good.”</p>",
             "author": "Lionel M.",
             "date": "vor 7 Tag",
@@ -513,10 +494,8 @@
         "review_wbXdLy": {
           "type": "review",
           "settings": {
-            "review_image": "shopify://shop_images/261_revie.webp",
             "content": "<p>“I was unsure at first because of the price, but the quality really won me over. I would buy it again straight away.”</p>",
             "author": "Matthias Krüger",
-            "author_image": "shopify://shop_images/magic_ugc_male_01.webp",
             "date": "vor 2 Monaten",
             "rating": 5,
             "show_verified_badge": false,
@@ -526,7 +505,6 @@
         "review_y8tq9b": {
           "type": "review",
           "settings": {
-            "review_image": "shopify://shop_images/2026-07-02_16h41_42.webp",
             "content": "<p>\"It is perfect and beautiful 🥰🥰🥰\"</p>",
             "author": "Lidis A.",
             "date": "vor 2 Monaten",
@@ -549,7 +527,6 @@
         "review_639hbA": {
           "type": "review",
           "settings": {
-            "review_image": "shopify://shop_images/2026-07-22_16h43_29.png",
             "content": "<p>“The perfumes smell perfect and the scents last a really long time. Truly great quality.”<br/></p>",
             "author": "Kamila G.",
             "date": "vor 3 Monaten",
@@ -561,7 +538,6 @@
         "review_G3HzBj": {
           "type": "review",
           "settings": {
-            "review_image": "shopify://shop_images/Mounissa_Soilihi.webp",
             "content": "<p>\"Smells just like Luna Rossa Carbon, but much cheaper. I cannot believe how close it is.\"</p>",
             "author": "Robinson D.",
             "date": "vor 4 Monaten",
@@ -573,7 +549,6 @@
         "review_KK6jhW": {
           "type": "review",
           "settings": {
-            "review_image": "shopify://shop_images/magic_revie.png",
             "content": "<p>“A scent that makes you feel fresh and well-groomed straight away. Not too overpowering, just right. 👌”</p>",
             "author": "Michael R.",
             "date": "vor 4 Monaten",
@@ -585,7 +560,6 @@
         "review_HjyT3p": {
           "type": "review",
           "settings": {
-            "review_image": "shopify://shop_images/Daria_Kononenko_2.webp",
             "content": "<p>“I have known Creed Aventus for years and I have to say honestly: this is one of the best dupes I have found so far. The pineapple and vanilla notes really come through, and you cannot complain about the price.”</p>",
             "author": "Alvarez P.",
             "date": "vor 4 Monaten",
@@ -597,7 +571,6 @@
         "review_6Bhttk": {
           "type": "review",
           "settings": {
-            "review_image": "shopify://shop_images/Carolina_Maresca_2.webp",
             "content": "<p>\"The product arrived nicely packaged. The perfume was not broken or leaking and was in good condition. The scent is perfect and did not smell bad. I love it, high quality\"</p>",
             "author": "Anne E.",
             "date": "vor 4 Monaten",
@@ -620,7 +593,6 @@
         "review_JRzxRP": {
           "type": "review",
           "settings": {
-            "review_image": "shopify://shop_images/2026-07-02_16h57_29.webp",
             "content": "<p>“I am really happy with Magic Perfume. The scent comes very close to the original and lasts really well on me. The packaging was neat and the bottle feels high-quality, too. Definitely a great alternative for the price.”</p>",
             "author": "Alina M",
             "date": "vor 5 Monaten",
@@ -643,7 +615,6 @@
         "review_aietxq": {
           "type": "review",
           "settings": {
-            "review_image": "shopify://shop_images/Anastasiia_Komisarova.webp",
             "content": "<p>\"Great fragrances, great products, no problems.\"</p>",
             "author": "Alex S.",
             "date": "vor 6 Monaten",
