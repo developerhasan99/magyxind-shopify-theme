@@ -50,13 +50,6 @@
             "show_gift_card_recipient": true
           }
         },
-        "text_T466xD": {
-          "type": "text",
-          "settings": {
-            "text": "<strong>Top notes: </strong>{{ product.metafields.custom.top_notes | metafield_text: field: 'heading' }}",
-            "text_style": "body"
-          }
-        },
         "reactive_atc_LBDQE9": {
           "type": "reactive_atc",
           "settings": {}
@@ -228,7 +221,6 @@
         "price_MG94AW",
         "variant_picker_hH3Diz",
         "buy_buttons_eXWBwX",
-        "text_T466xD",
         "reactive_atc_LBDQE9",
         "custom_liquid_QcxgR4",
         "payment_badges_FkCwVc",

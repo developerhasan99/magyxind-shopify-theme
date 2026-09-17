@@ -37,14 +37,6 @@
             "custom_liquid": "{% render 'pre-atc-blocks' %}"
           }
         },
-        "text_T466xD": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<strong>Top notes: </strong>{{ product.metafields.custom.top_notes | metafield_text: field: 'heading' }}",
-            "text_style": "body"
-          }
-        },
         "custom_liquid_Wb3gBi": {
           "type": "custom_liquid",
           "settings": {
@@ -242,7 +234,6 @@
         "inspired_by_ykNwGy",
         "designer_price_VYNtA7",
         "custom_liquid_wVgaRG",
-        "text_T466xD",
         "custom_liquid_Wb3gBi",
         "reactive_atc_LBDQE9",
         "custom_liquid_QcxgR4",
