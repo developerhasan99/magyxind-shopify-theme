@@ -1,0 +1,152 @@
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<div
+  id="{{ section.id }}"
+  class="section-{{ section.id }}-padding"
+  style="background-color: {{ section.settings.background_color }}">
+  <div class="page-width">
+    <div class="max-w-2xl mx-auto">
+      <div class="text-center mb-8">
+        <h2 class="my-0 text-2xl md:text-3xl font-bold text-gray-900">
+          {{ section.settings.title }}
+        </h2>
+
+      </div>
+      <div class="">
+
+        <!-- Header -->
+        <div class="flex items-center justify-between">
+          <!-- Logo -->
+          <div>
+            <div class="text-2xl font-bold tracking-widest text-gray-900 leading-none">MAGIC</div>
+            <div class="text-xs tracking-[0.35em] text-gray-500 font-medium mt-0.5">PERFUME</div>
+          </div>
+          <!-- Perfume bottle -->
+          <div class="relative">
+            <img
+              class="w-24 h-auto"
+              height=""
+              width=""
+              src="https://cdn.shopify.com/s/files/1/0700/7928/3458/files/other-bottle_ba83590b-69af-48a5-95d1-fdbd6f31e25f.png?v=1774461493&width=300"
+              alt="Other brand">
+          </div>
+        </div>
+
+        <!-- Comparison Rows -->
+        <div class="flex flex-col gap-2.5">
+          {% assign comparison_features = "Hohe Qualität,Lang anhaltend,Preiswert,Dermatologisch getestet,Kombinierbare Düfte,Kostenlose 30-Tage-Rückgabe,Schneller Versand,100% Vegan,Tierversuchsfrei" | split: "," %}
+          {% assign magic_statuses = "check,check,check,check,check,check,check,check,check" | split: "," %}
+          {% assign other_statuses = "check,warning,cross,check,cross,warning,warning,warning,warning" | split: "," %}
+          {% assign other_texts = " ,Je nach<br>Händler, , , ,Selten,Je nach<br>Händler,Nicht<br>immer,Nicht<br>immer" | split: "," %}
+
+          {% for feature_name in comparison_features %}
+            {% assign current_index = forloop.index0 %}
+            {% assign magic_status = magic_statuses[current_index] %}
+            {% assign other_status = other_statuses[current_index] %}
+            {% assign other_text = other_texts[current_index] %}
+
+              <div class="grid grid-cols-[44px_1fr_80px] items-center gap-x-3 bg-gray-100 rounded-full px-3 py-2">
+              <!-- Magic Perfume Status -->
+              <div class="flex items-center justify-center">
+                {% if magic_status == 'check' %}
+                  {% render 'icon-check-green' %}
+                {% endif %}
+              </div>
+
+              <!-- Feature Name -->
+              <div class="text-center text-gray-800 font-medium text-[15px] bg-white rounded-full py-1">{{ feature_name }}</div>
+
+              <!-- Other Brands Status -->
+              <div class="flex items-center justify-center">
+                {% if other_status == 'check' %}
+                  {% render 'icon-check-green' %}
+                {% elsif other_status == 'cross' %}
+                  {% render 'icon-check-red' %}
+                {% elsif other_status == 'warning' %}
+                  <div class="flex items-center justify-center gap-1">
+                    {% render 'icon-warning' %}
+                    <span class="text-xs text-gray-600 font-medium leading-tight text-center">{{ other_text }}</span>
+                  </div>
+                {% endif %}
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Draft Comparison",
+    "tag": "section",
+    "settings": [
+      {
+        "type": "color",
+        "id": "background_color",
+        "label": "Background Color",
+        "default": "#fcfbf9"
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title",
+        "default": "Warum Magic Parfum?"
+      },
+      {
+        "type": "text",
+        "id": "subtitle",
+        "label": "Subtitle",
+        "default": "Die clevere Alternative zu überteuerten Luxusmarken."
+      },
+      {
+        "type": "header",
+        "content": "Comparison Items"
+      }, {
+        "type": "textarea",
+        "id": "comparison_items",
+        "label": "Comparison Items (JSON format)",
+        "default": "[{\"feature_name\":\"Hohe Qualität\",\"magic_status\":\"check\",\"other_status\":\"check\"},{\"feature_name\":\"Lang anhaltend\",\"magic_status\":\"check\",\"other_status\":\"warning\",\"other_text\":\"Je nach<br>Händler\"},{\"feature_name\":\"Preiswert\",\"magic_status\":\"check\",\"other_status\":\"cross\"},{\"feature_name\":\"Dermatologisch getestet\",\"magic_status\":\"check\",\"other_status\":\"check\"},{\"feature_name\":\"Kombinierbare Düfte\",\"magic_status\":\"check\",\"other_status\":\"cross\"},{\"feature_name\":\"Kostenlose 30-Tage-Rückgabe\",\"magic_status\":\"check\",\"other_status\":\"warning\",\"other_text\":\"Selten\"},{\"feature_name\":\"Schneller Versand\",\"magic_status\":\"check\",\"other_status\":\"warning\",\"other_text\":\"Je nach<br>Händler\"},{\"feature_name\":\"100% Vegan\",\"magic_status\":\"check\",\"other_status\":\"warning\",\"other_text\":\"Nicht<br>immer\"},{\"feature_name\":\"Tierversuchsfrei\",\"magic_status\":\"check\",\"other_status\":\"warning\",\"other_text\":\"Nicht<br>immer\"}]"
+      }, {
+        "type": "header",
+        "content": "t:sections.all.padding.section_padding_heading"
+      }, {
+        "type": "range",
+        "id": "padding_top",
+        "min": 0,
+        "max": 100,
+        "step": 4,
+        "unit": "px",
+        "label": "t:sections.all.padding.padding_top",
+        "default": 36
+      }, {
+        "type": "range",
+        "id": "padding_bottom",
+        "min": 0,
+        "max": 100,
+        "step": 4,
+        "unit": "px",
+        "label": "t:sections.all.padding.padding_bottom",
+        "default": 36
+      }
+    ],
+    "presets": [
+      {
+        "name": "Draft Comparison"
+      }
+    ]
+  }
+{% endschema %}

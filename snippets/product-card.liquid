@@ -1,0 +1,133 @@
+<div class="flex flex-col bg-white p-4 shadow-sm rounded-lg relative h-full">
+  {% if product.tags contains 'bestseller' or product.tags contains 'onsale' %}
+    <div class="absolute top-3 left-4 flex gap-4">
+      {% if product.tags contains 'bestseller' %}
+        <div class="bg-blue-50 text-blue-600 px-2 py-1 text-xs rounded-full flex items-center gap-1">
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-star">
+            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+          </svg>
+          <span>Bestseller</span>
+        </div>
+      {% elsif product.tags contains 'onsale' %}
+        <div class="bg-red-50 text-red-600 px-2 py-1 text-xs rounded-full">⚡ Angebot</div>
+      {% endif %}
+    </div>
+  {% endif %}
+
+  <a href="{{ product.url }}" class="flex relative">
+    <img
+      class="w-full h-auto"
+      src="{{ product.images.first | image_url: width: 300 }}"
+      alt="{{ product.title }}"
+      height="{{ product.images.first.height }}"
+      width="{{ product.images.first.width }}"
+    >
+    {% unless product.tags contains 'Bundle_Price_Show' %}
+      <div class="card__promo-marquee absolute left-0 right-0 bottom-0 bg-[#137c44] text-white" aria-label="Köp 3, få 1 gratis">
+        <div class="card__promo-marquee-rail">
+          <div class="card__promo-marquee-group">
+            <span class="card__promo-marquee-text">2 KAUFEN, 1 GRATIS</span>
+            <span class="card__promo-marquee-dot" aria-hidden="true"></span>
+            <span class="card__promo-marquee-text">2 KAUFEN, 1 GRATIS</span>
+            <span class="card__promo-marquee-dot" aria-hidden="true"></span>
+          </div>
+          <div class="card__promo-marquee-group" aria-hidden="true">
+            <span class="card__promo-marquee-text">2 KAUFEN, 1 GRATIS</span>
+            <span class="card__promo-marquee-dot" aria-hidden="true"></span>
+            <span class="card__promo-marquee-text">2 KAUFEN, 1 GRATIS</span>
+            <span class="card__promo-marquee-dot" aria-hidden="true"></span>
+          </div>
+        </div>
+      </div>
+    {% endunless %}
+  </a>
+
+  {% comment %} <div class="flex items-center flex-wrap gap-x-2 gap-y-1 mt-3">
+    {% if product.tags contains 'onsale' %}
+      <div class="text-green-600 text-xs font-semibold bg-green-600/10 px-2 py-1 rounded inline-block">
+        Sale
+      </div>
+    {% endif %}
+
+    {% if product.metafields.custom.custom_label != blank %}
+      <div class="text-blue-500 text-xs font-semibold bg-blue-500/10 px-2 py-1 rounded inline-block custom_label">
+        {{ product.metafields.custom.custom_label }}
+      </div>
+    {% endif %}
+
+    {%- if show_rating and product.metafields.reviews.rating.value != blank -%}
+      {% liquid
+        assign rating_decimal = 0
+        assign decimal = product.metafields.reviews.rating.value.rating | modulo: 1
+        if decimal >= 0.3 and decimal <= 0.7
+          assign rating_decimal = 0.5
+        elsif decimal > 0.7
+          assign rating_decimal = 1
+        endif
+      %}
+      <div>
+        <div
+        class="rating"
+        role="img"
+        aria-label="{{ 'accessibility.star_reviews_info' | t: rating_value: product.metafields.reviews.rating.value, rating_max: product.metafields.reviews.rating.value.scale_max }}"
+      >
+        <img src="{{ 'rating-stars.svg' | asset_url }}" alt="*****" height="13" width="66">
+      </div>
+      <p class="rating-text caption">
+        <span aria-hidden="true">
+          {{- product.metafields.reviews.rating.value }} /
+          {{ product.metafields.reviews.rating.value.scale_max -}}
+        </span>
+      </p>
+      <p class="rating-count caption">
+        <span aria-hidden="true">({{ product.metafields.reviews.rating_count }})</span>
+        <span class="visually-hidden">
+          {{- product.metafields.reviews.rating_count }}
+          {{ 'accessibility.total_reviews' | t -}}
+        </span>
+      </p>
+      </div>
+    {%- endif -%}
+  </div> {% endcomment %}
+
+  <h3 class="mb-0 mt-2 text-base">
+    <a class="no-underline text-black font-semibold" href="{{ product.url }}">
+      {{ product.title }}
+    </a>
+  </h3>
+
+  {% if product.metafields.custom.inspiration != blank %}
+    <div class="flex items-center gap-2 mt-2">
+      <img 
+        style="filter: blur(2px);" 
+        class="object-contain object-center bg-white"
+        src="{{ product.metafields.custom.inspiration.value.image | image_url }}"
+        alt="{{ product.metafields.custom.inspiration.value.image.alt | escape }}"
+        width="35" 
+        height="35"
+      >
+      <div>
+        <p class="text-xs my-0">Inspiriert von:</p>
+        <h4 class="text-sm font-semibold my-0 line-clamp-1 inspiration_heading">{{ product.metafields.custom.inspiration.value.name }}</h4>
+      </div>
+    </div>
+  {% endif %}
+
+  <div class="my-3">
+    {%- render 'price',
+      product: product,
+      use_variant: true,
+      show_badges: false,
+      price_class: 'price--large'
+    -%}
+  </div>
+
+  <div class="mt-auto">
+    <a 
+      class="hover:bg-[#17803d] bg-[#146b32] text-white uppercase text-sm font-semibold tracking-[2px] py-3 px-4 rounded-lg no-underline w-full text-center block" 
+      href="{{ product.url }}"
+    >
+      Jetzt kaufen
+    </a>
+  </div>
+</div>
