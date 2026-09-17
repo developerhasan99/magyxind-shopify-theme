@@ -414,7 +414,6 @@
         "tile-1": {
           "type": "tile",
           "settings": {
-            "video": "",
             "video_url": "",
             "caption": "Customer video",
             "soon_label": "Video coming soon",
