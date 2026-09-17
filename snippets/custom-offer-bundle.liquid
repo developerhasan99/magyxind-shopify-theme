@@ -26,12 +26,12 @@
 
       {% if product.compare_at_price > product.price %}
         <span class="text-gray-500 font-semibold line-through compare-price">
-          Designerpreis: {{ product.compare_at_price | money }}
+          Designer price: {{ product.compare_at_price | money }}
         </span>
       {% endif %}
     </div>
     <div class="text-lg font-semibold text-black leading-normal">
-      Das entspricht nur {{ product.price | divided_by: product.metafields.custom.choose_your_fragrances_options | money }} pro Flasche.
+      That works out to just {{ product.price | divided_by: product.metafields.custom.choose_your_fragrances_options | money }} per bottle.
     </div>
   </div>
 {% endif %}
@@ -96,7 +96,7 @@
             , size: 40 %}
             <div class="min-w-0 flex-1">
               <div class="text-sm text-[#6b7280] overflow-hidden whitespace-nowrap [text-overflow:ellipsis]">
-                Wähle deinen Duft
+                Choose your fragrance
               </div>
             </div>
             <span class="ml-auto shrink-0 text-[#6b7280]"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"></path></svg></span>
@@ -134,8 +134,8 @@
       }"
     class="w-full flex gap-2 flex-wrap items-center !mb-0 text-lg font-bold !py-3 !px-2 rounded-full button bg-[#22613a] transition-colors shadow-xl tracking-normal button--full-width"
   >
-    <span x-show="$store.bundleBuilder.selectedProducts.length < {{ product_count }}" x-text="'Wähle noch ' + ({{ product_count }} - $store.bundleBuilder.selectedProducts.length) + ' aus'"></span>
-    <span x-show="$store.bundleBuilder.selectedProducts.length === {{ product_count }}">Jetzt kaufen</span>
+    <span x-show="$store.bundleBuilder.selectedProducts.length < {{ product_count }}" x-text="'Choose ' + ({{ product_count }} - $store.bundleBuilder.selectedProducts.length) + ' more'"></span>
+    <span x-show="$store.bundleBuilder.selectedProducts.length === {{ product_count }}">Buy now</span>
     <span class="size-2 rounded-full inline-block bg-white/50"></span>
     <span class="current-price">{{ selected_variant.price | money }}</span>
     <div x-show="$store.bundleBuilder.addingToCart" class="loading__spinner">
@@ -245,7 +245,7 @@
         // Add each selected product as a separate property
         this.selectedProducts.forEach((product, index) => {
           properties[`Flasche ${index + 1}`] =
-            `${product.name} Inspiriert von ${product.inspiration_name} - ${product.variant.title}`;
+            `${product.name} Inspired by ${product.inspiration_name} - ${product.variant.title}`;
         });
         // Prepare cart items
         const items = {
@@ -295,8 +295,8 @@
       width="40"
       height="40" />
     <div class="text-slate-900">
-      <strong class="font-semibold">Teste es 60 Tage lang – völlig risikofrei.</strong>
-      <div class="[display:none] md:block">Sollten Sie nicht absolut begeistert sein, erstatten wir Ihnen den vollen Betrag zurück!</div>
+      <strong class="font-semibold">Try it for 60 days – completely risk-free.</strong>
+      <div class="[display:none] md:block">If you are not absolutely delighted, we will refund the full amount!</div>
     </div>
   </div>
 </div>

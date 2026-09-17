@@ -13,7 +13,7 @@
       "type": "custom-liquid",
       "name": "Payday",
       "settings": {
-        "custom_liquid": "<style>\n#mp-hero-custom{\n  position:relative;\n  min-height:560px;\n  overflow:hidden;\n  background:\n    linear-gradient(90deg,rgba(236,225,207,.55) 0%,rgba(236,225,207,.3) 34%,rgba(236,225,207,0) 58%),\n    url('https://magicperfume.co/cdn/shop/files/magic_header_1.png?v=1772469544') center right/cover no-repeat,\n    #ece1cf;\n}\n#mp-hero-custom .mp-container{\n  width:min(1180px,calc(100% - 36px));\n  margin-inline:auto;\n}\n#mp-hero-custom .mp-hero-inner{\n  min-height:560px;\n  display:flex;\n  align-items:center;\n  position:relative;\n  z-index:2;\n}\n#mp-hero-custom .mp-hero-copy{max-width:600px}\n#mp-hero-custom .mp-social-proof{\n  display:inline-flex;\n  flex-direction:column;\n  gap:4px;\n  margin-bottom:26px;\n}\n#mp-hero-custom .mp-social-proof-top{\n  font-size:13px;\n  font-weight:700;\n  color:rgba(0,0,0,.55);\n  text-transform:uppercase;\n  letter-spacing:.06em;\n}\n#mp-hero-custom .mp-social-proof-rating{\n  display:flex;\n  align-items:center;\n  gap:8px;\n}\n#mp-hero-custom .mp-stars{color:#ffb000;letter-spacing:2px;font-size:16px}\n#mp-hero-custom .mp-rating-text{\n  font-size:14px;\n  font-weight:700;\n  color:#121212;\n}\n#mp-hero-custom .mp-social-proof-sub{\n  font-size:13px;\n  color:rgba(0,0,0,.45);\n  font-style:italic;\n}\n#mp-hero-custom h1{\n  margin:0 0 18px;\n  font-size:36px;\n  font-weight:900;\n  line-height:1.22;\n  letter-spacing:.6px;\n  color:#121212;\n}\n#mp-hero-custom .mp-rule{\n  width:200px;\n  height:2px;\n  background:#683D0E;\n  margin:0 0 22px;\n}\n#mp-hero-custom .mp-question{\n  max-width:560px;\n  margin-bottom:16px;\n  font-size:24px;\n  font-weight:900;\n  line-height:1.3;\n  letter-spacing:.4px;\n  color:#683D0E;\n}\n#mp-hero-custom .mp-proof{\n  max-width:520px;\n  margin:0;\n  font-size:16px;\n  line-height:1.7;\n  color:rgba(0,0,0,.66);\n}\n#mp-hero-custom .mp-microcopy{\n  margin:12px 0 0;\n  font-size:14px;\n  color:rgba(0,0,0,.55);\n}\n#mp-hero-custom .mp-cta-group{\n  display:flex;\n  gap:12px;\n  margin-top:28px;\n  flex-wrap:wrap;\n}\n#mp-hero-custom .mp-btn{\n  display:inline-flex;\n  align-items:center;\n  justify-content:center;\n  padding:14px 28px;\n  border-radius:999px;\n  font-size:15px;\n  font-weight:700;\n  letter-spacing:.03em;\n  text-decoration:none;\n  transition:opacity .2s;\n  cursor:pointer;\n}\n#mp-hero-custom .mp-btn:hover{opacity:.85}\n#mp-hero-custom .mp-btn-primary{\n  background:#683D0E;\n  color:#fff;\n}\n#mp-hero-custom .mp-btn-secondary{\n  background:#fff;\n  color:#683D0E;\n  border:2px solid #683D0E;\n}\n@media(max-width:700px){\n  #mp-hero-custom{\n    min-height:auto;\n    background:\n      linear-gradient(180deg,rgba(236,225,207,.94) 0%,rgba(236,225,207,.82) 34%,rgba(236,225,207,.35) 56%,rgba(236,225,207,0) 74%),\n      url('https://magicperfume.co/cdn/shop/files/magic_header_mobile_1.jpg?v=1772469543') center top/cover no-repeat,\n      #ece1cf;\n  }\n  #mp-hero-custom .mp-hero-inner{\n    min-height:auto;\n    display:block;\n    padding-top:36px;\n    padding-bottom:360px;\n  }\n  #mp-hero-custom .mp-hero-copy{\n    max-width:100%;\n    text-align:center;\n  }\n  #mp-hero-custom .mp-social-proof-rating{justify-content:center}\n  #mp-hero-custom .mp-rule{margin-inline:auto}\n  #mp-hero-custom h1{font-size:30px}\n  #mp-hero-custom .mp-question{\n    font-size:20px;\n    margin-inline:auto;\n  }\n  #mp-hero-custom .mp-proof{margin-inline:auto}\n  #mp-hero-custom .mp-microcopy{\n    color:rgba(0,0,0,.75);\n    font-weight:600;\n  }\n  #mp-hero-custom .mp-cta-group{\n    justify-content:center;\n  }\n  #mp-hero-custom .mp-btn{\n    width:100%;\n    max-width:320px;\n  }\n}\n</style>\n\n<section id=\"mp-hero-custom\">\n  <div class=\"mp-container\">\n    <div class=\"mp-hero-inner\">\n      <div class=\"mp-hero-copy\">\n\n        <div class=\"mp-social-proof\">\n          <span class=\"mp-social-proof-top\">Geliebt von &uuml;ber 10.000 Parf&uuml;mliebhabern</span>\n          <div class=\"mp-social-proof-rating\">\n            <span class=\"mp-stars\">&#9733;&#9733;&#9733;&#9733;&#9733;</span>\n            <span class=\"mp-rating-text\">4,6/5 Sterne</span>\n          </div>\n          <span class=\"mp-social-proof-sub\">Die den Unterschied immer noch nicht erkennen k&ouml;nnen.</span>\n        </div>\n\n        <h1>Premium-Qualit&auml;t Duft-Zwillinge</h1>\n\n        <div class=\"mp-rule\"></div>\n\n        <div class=\"mp-question\">Ohne Flasche und Logo: W&uuml;rdest du den Unterschied bemerken?</div>\n\n        <p class=\"mp-proof\">&Uuml;berzeug dich selbst.</p>\n\n        <div class=\"mp-cta-group\">\n          <a href=\"https://magicperfume.co/collections/bestseller-singles\" class=\"mp-btn mp-btn-primary\">KAUF 3 ZUM PREIS VON 2</a>\n          <a href=\"https://magicperfume.co/collections/best-sellers?pb=0#quiz\" class=\"mp-btn mp-btn-secondary\">Finde dein Lieblingsparfüm</a>\n        </div>\n\n      </div>\n    </div>\n  </div>\n</section>",
+        "custom_liquid": "<style>\n#mp-hero-custom{\n  position:relative;\n  min-height:560px;\n  overflow:hidden;\n  background:\n    linear-gradient(90deg,rgba(236,225,207,.55) 0%,rgba(236,225,207,.3) 34%,rgba(236,225,207,0) 58%),\n    url('https://magicperfume.co/cdn/shop/files/magic_header_1.png?v=1772469544') center right/cover no-repeat,\n    #ece1cf;\n}\n#mp-hero-custom .mp-container{\n  width:min(1180px,calc(100% - 36px));\n  margin-inline:auto;\n}\n#mp-hero-custom .mp-hero-inner{\n  min-height:560px;\n  display:flex;\n  align-items:center;\n  position:relative;\n  z-index:2;\n}\n#mp-hero-custom .mp-hero-copy{max-width:600px}\n#mp-hero-custom .mp-social-proof{\n  display:inline-flex;\n  flex-direction:column;\n  gap:4px;\n  margin-bottom:26px;\n}\n#mp-hero-custom .mp-social-proof-top{\n  font-size:13px;\n  font-weight:700;\n  color:rgba(0,0,0,.55);\n  text-transform:uppercase;\n  letter-spacing:.06em;\n}\n#mp-hero-custom .mp-social-proof-rating{\n  display:flex;\n  align-items:center;\n  gap:8px;\n}\n#mp-hero-custom .mp-stars{color:#ffb000;letter-spacing:2px;font-size:16px}\n#mp-hero-custom .mp-rating-text{\n  font-size:14px;\n  font-weight:700;\n  color:#121212;\n}\n#mp-hero-custom .mp-social-proof-sub{\n  font-size:13px;\n  color:rgba(0,0,0,.45);\n  font-style:italic;\n}\n#mp-hero-custom h1{\n  margin:0 0 18px;\n  font-size:36px;\n  font-weight:900;\n  line-height:1.22;\n  letter-spacing:.6px;\n  color:#121212;\n}\n#mp-hero-custom .mp-rule{\n  width:200px;\n  height:2px;\n  background:#683D0E;\n  margin:0 0 22px;\n}\n#mp-hero-custom .mp-question{\n  max-width:560px;\n  margin-bottom:16px;\n  font-size:24px;\n  font-weight:900;\n  line-height:1.3;\n  letter-spacing:.4px;\n  color:#683D0E;\n}\n#mp-hero-custom .mp-proof{\n  max-width:520px;\n  margin:0;\n  font-size:16px;\n  line-height:1.7;\n  color:rgba(0,0,0,.66);\n}\n#mp-hero-custom .mp-microcopy{\n  margin:12px 0 0;\n  font-size:14px;\n  color:rgba(0,0,0,.55);\n}\n#mp-hero-custom .mp-cta-group{\n  display:flex;\n  gap:12px;\n  margin-top:28px;\n  flex-wrap:wrap;\n}\n#mp-hero-custom .mp-btn{\n  display:inline-flex;\n  align-items:center;\n  justify-content:center;\n  padding:14px 28px;\n  border-radius:999px;\n  font-size:15px;\n  font-weight:700;\n  letter-spacing:.03em;\n  text-decoration:none;\n  transition:opacity .2s;\n  cursor:pointer;\n}\n#mp-hero-custom .mp-btn:hover{opacity:.85}\n#mp-hero-custom .mp-btn-primary{\n  background:#683D0E;\n  color:#fff;\n}\n#mp-hero-custom .mp-btn-secondary{\n  background:#fff;\n  color:#683D0E;\n  border:2px solid #683D0E;\n}\n@media(max-width:700px){\n  #mp-hero-custom{\n    min-height:auto;\n    background:\n      linear-gradient(180deg,rgba(236,225,207,.94) 0%,rgba(236,225,207,.82) 34%,rgba(236,225,207,.35) 56%,rgba(236,225,207,0) 74%),\n      url('https://magicperfume.co/cdn/shop/files/magic_header_mobile_1.jpg?v=1772469543') center top/cover no-repeat,\n      #ece1cf;\n  }\n  #mp-hero-custom .mp-hero-inner{\n    min-height:auto;\n    display:block;\n    padding-top:36px;\n    padding-bottom:360px;\n  }\n  #mp-hero-custom .mp-hero-copy{\n    max-width:100%;\n    text-align:center;\n  }\n  #mp-hero-custom .mp-social-proof-rating{justify-content:center}\n  #mp-hero-custom .mp-rule{margin-inline:auto}\n  #mp-hero-custom h1{font-size:30px}\n  #mp-hero-custom .mp-question{\n    font-size:20px;\n    margin-inline:auto;\n  }\n  #mp-hero-custom .mp-proof{margin-inline:auto}\n  #mp-hero-custom .mp-microcopy{\n    color:rgba(0,0,0,.75);\n    font-weight:600;\n  }\n  #mp-hero-custom .mp-cta-group{\n    justify-content:center;\n  }\n  #mp-hero-custom .mp-btn{\n    width:100%;\n    max-width:320px;\n  }\n}\n</style>\n\n<section id=\"mp-hero-custom\">\n  <div class=\"mp-container\">\n    <div class=\"mp-hero-inner\">\n      <div class=\"mp-hero-copy\">\n\n        <div class=\"mp-social-proof\">\n          <span class=\"mp-social-proof-top\">Loved by over 10,000 perfume lovers</span>\n          <div class=\"mp-social-proof-rating\">\n            <span class=\"mp-stars\">&#9733;&#9733;&#9733;&#9733;&#9733;</span>\n            <span class=\"mp-rating-text\">4.6/5 stars</span>\n          </div>\n          <span class=\"mp-social-proof-sub\">Who still cannot tell the difference.</span>\n        </div>\n\n        <h1>Premium-quality fragrance dupes</h1>\n\n        <div class=\"mp-rule\"></div>\n\n        <div class=\"mp-question\">Without the bottle and logo: would you notice the difference?</div>\n\n        <p class=\"mp-proof\">&Uuml;berzeug dich selbst.</p>\n\n        <div class=\"mp-cta-group\">\n          <a href=\"https://magicperfume.co/collections/bestseller-singles\" class=\"mp-btn mp-btn-primary\">GET 3 FOR THE PRICE OF 2</a>\n          <a href=\"https://magicperfume.co/collections/best-sellers?pb=0#quiz\" class=\"mp-btn mp-btn-secondary\">Find your favorite perfume</a>\n        </div>\n\n      </div>\n    </div>\n  </div>\n</section>",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
@@ -24,7 +24,7 @@
       "disabled": true,
       "name": "Evergreen",
       "settings": {
-        "custom_liquid": "<style>\n#mp-hero-custom{\n  position:relative;\n  min-height:560px;\n  overflow:hidden;\n  background:\n    linear-gradient(90deg,rgba(236,225,207,.55) 0%,rgba(236,225,207,.3) 34%,rgba(236,225,207,0) 58%),\n    url('https://magicperfume.co/cdn/shop/files/magic_header_1.png?v=1772469544') center right/cover no-repeat,\n    #ece1cf;\n}\n#mp-hero-custom .mp-container{\n  width:min(1180px,calc(100% - 36px));\n  margin-inline:auto;\n}\n#mp-hero-custom .mp-hero-inner{\n  min-height:560px;\n  display:flex;\n  align-items:center;\n  position:relative;\n  z-index:2;\n}\n#mp-hero-custom .mp-hero-copy{max-width:600px}\n#mp-hero-custom .mp-social-proof{\n  display:inline-flex;\n  flex-direction:column;\n  gap:4px;\n  margin-bottom:26px;\n}\n#mp-hero-custom .mp-social-proof-top{\n  font-size:13px;\n  font-weight:700;\n  color:rgba(0,0,0,.55);\n  text-transform:uppercase;\n  letter-spacing:.06em;\n}\n#mp-hero-custom .mp-social-proof-rating{\n  display:flex;\n  align-items:center;\n  gap:8px;\n}\n#mp-hero-custom .mp-stars{color:#ffb000;letter-spacing:2px;font-size:16px}\n#mp-hero-custom .mp-rating-text{\n  font-size:14px;\n  font-weight:700;\n  color:#121212;\n}\n#mp-hero-custom .mp-social-proof-sub{\n  font-size:13px;\n  color:rgba(0,0,0,.45);\n  font-style:italic;\n}\n#mp-hero-custom h1{\n  margin:0 0 18px;\n  font-size:36px;\n  font-weight:900;\n  line-height:1.22;\n  letter-spacing:.6px;\n  color:#121212;\n}\n#mp-hero-custom .mp-rule{\n  width:200px;\n  height:2px;\n  background:#683D0E;\n  margin:0 0 22px;\n}\n#mp-hero-custom .mp-question{\n  max-width:560px;\n  margin-bottom:16px;\n  font-size:24px;\n  font-weight:900;\n  line-height:1.3;\n  letter-spacing:.4px;\n  color:#683D0E;\n}\n#mp-hero-custom .mp-proof{\n  max-width:520px;\n  margin:0;\n  font-size:16px;\n  line-height:1.7;\n  color:rgba(0,0,0,.66);\n}\n#mp-hero-custom .mp-microcopy{\n  margin:12px 0 0;\n  font-size:14px;\n  color:rgba(0,0,0,.55);\n}\n#mp-hero-custom .mp-cta-group{\n  display:flex;\n  gap:12px;\n  margin-top:28px;\n  flex-wrap:wrap;\n}\n#mp-hero-custom .mp-btn{\n  display:inline-flex;\n  align-items:center;\n  justify-content:center;\n  padding:14px 28px;\n  border-radius:999px;\n  font-size:15px;\n  font-weight:700;\n  letter-spacing:.03em;\n  text-decoration:none;\n  transition:opacity .2s;\n  cursor:pointer;\n}\n#mp-hero-custom .mp-btn:hover{opacity:.85}\n#mp-hero-custom .mp-btn-primary{\n  background:#683D0E;\n  color:#fff;\n}\n#mp-hero-custom .mp-btn-secondary{\n  background:#fff;\n  color:#683D0E;\n  border:2px solid #683D0E;\n}\n@media(max-width:700px){\n  #mp-hero-custom{\n    min-height:auto;\n    background:\n      linear-gradient(180deg,rgba(236,225,207,.94) 0%,rgba(236,225,207,.82) 34%,rgba(236,225,207,.35) 56%,rgba(236,225,207,0) 74%),\n      url('https://magicperfume.co/cdn/shop/files/magic_header_mobile_1.jpg?v=1772469543') center top/cover no-repeat,\n      #ece1cf;\n  }\n  #mp-hero-custom .mp-hero-inner{\n    min-height:auto;\n    display:block;\n    padding-top:36px;\n    padding-bottom:360px;\n  }\n  #mp-hero-custom .mp-hero-copy{\n    max-width:100%;\n    text-align:center;\n  }\n  #mp-hero-custom .mp-social-proof-rating{justify-content:center}\n  #mp-hero-custom .mp-rule{margin-inline:auto}\n  #mp-hero-custom h1{font-size:30px}\n  #mp-hero-custom .mp-question{\n    font-size:20px;\n    margin-inline:auto;\n  }\n  #mp-hero-custom .mp-proof{margin-inline:auto}\n  #mp-hero-custom .mp-microcopy{\n    color:rgba(0,0,0,.75);\n    font-weight:600;\n  }\n  #mp-hero-custom .mp-cta-group{\n    justify-content:center;\n  }\n  #mp-hero-custom .mp-btn{\n    width:100%;\n    max-width:320px;\n  }\n}\n</style>\n\n<section id=\"mp-hero-custom\">\n  <div class=\"mp-container\">\n    <div class=\"mp-hero-inner\">\n      <div class=\"mp-hero-copy\">\n\n        <div class=\"mp-social-proof\">\n          <span class=\"mp-social-proof-top\">Geliebt von &uuml;ber 10.000 Parf&uuml;mliebhabern</span>\n          <div class=\"mp-social-proof-rating\">\n            <span class=\"mp-stars\">&#9733;&#9733;&#9733;&#9733;&#9733;</span>\n            <span class=\"mp-rating-text\">4,6/5 Sterne</span>\n          </div>\n          <span class=\"mp-social-proof-sub\">Die den Unterschied immer noch nicht erkennen k&ouml;nnen.</span>\n        </div>\n\n        <h1>Premium-Qualit&auml;t Duft-Zwillinge</h1>\n\n        <div class=\"mp-rule\"></div>\n\n        <div class=\"mp-question\">Ohne Flasche und Logo: W&uuml;rdest du den Unterschied bemerken?</div>\n\n        <p class=\"mp-proof\">&Uuml;berzeug dich selbst.</p>\n\n        <div class=\"mp-cta-group\">\n          <a href=\"https://magicperfume.co/collections/best-sellers\" class=\"mp-btn mp-btn-primary\">Bestseller entdecken</a>\n          <a href=\"https://magicperfume.co/collections/best-sellers?pb=0#quiz\" class=\"mp-btn mp-btn-secondary\">Finde dein Lieblingsparfüm</a>\n        </div>\n\n      </div>\n    </div>\n  </div>\n</section>",
+        "custom_liquid": "<style>\n#mp-hero-custom{\n  position:relative;\n  min-height:560px;\n  overflow:hidden;\n  background:\n    linear-gradient(90deg,rgba(236,225,207,.55) 0%,rgba(236,225,207,.3) 34%,rgba(236,225,207,0) 58%),\n    url('https://magicperfume.co/cdn/shop/files/magic_header_1.png?v=1772469544') center right/cover no-repeat,\n    #ece1cf;\n}\n#mp-hero-custom .mp-container{\n  width:min(1180px,calc(100% - 36px));\n  margin-inline:auto;\n}\n#mp-hero-custom .mp-hero-inner{\n  min-height:560px;\n  display:flex;\n  align-items:center;\n  position:relative;\n  z-index:2;\n}\n#mp-hero-custom .mp-hero-copy{max-width:600px}\n#mp-hero-custom .mp-social-proof{\n  display:inline-flex;\n  flex-direction:column;\n  gap:4px;\n  margin-bottom:26px;\n}\n#mp-hero-custom .mp-social-proof-top{\n  font-size:13px;\n  font-weight:700;\n  color:rgba(0,0,0,.55);\n  text-transform:uppercase;\n  letter-spacing:.06em;\n}\n#mp-hero-custom .mp-social-proof-rating{\n  display:flex;\n  align-items:center;\n  gap:8px;\n}\n#mp-hero-custom .mp-stars{color:#ffb000;letter-spacing:2px;font-size:16px}\n#mp-hero-custom .mp-rating-text{\n  font-size:14px;\n  font-weight:700;\n  color:#121212;\n}\n#mp-hero-custom .mp-social-proof-sub{\n  font-size:13px;\n  color:rgba(0,0,0,.45);\n  font-style:italic;\n}\n#mp-hero-custom h1{\n  margin:0 0 18px;\n  font-size:36px;\n  font-weight:900;\n  line-height:1.22;\n  letter-spacing:.6px;\n  color:#121212;\n}\n#mp-hero-custom .mp-rule{\n  width:200px;\n  height:2px;\n  background:#683D0E;\n  margin:0 0 22px;\n}\n#mp-hero-custom .mp-question{\n  max-width:560px;\n  margin-bottom:16px;\n  font-size:24px;\n  font-weight:900;\n  line-height:1.3;\n  letter-spacing:.4px;\n  color:#683D0E;\n}\n#mp-hero-custom .mp-proof{\n  max-width:520px;\n  margin:0;\n  font-size:16px;\n  line-height:1.7;\n  color:rgba(0,0,0,.66);\n}\n#mp-hero-custom .mp-microcopy{\n  margin:12px 0 0;\n  font-size:14px;\n  color:rgba(0,0,0,.55);\n}\n#mp-hero-custom .mp-cta-group{\n  display:flex;\n  gap:12px;\n  margin-top:28px;\n  flex-wrap:wrap;\n}\n#mp-hero-custom .mp-btn{\n  display:inline-flex;\n  align-items:center;\n  justify-content:center;\n  padding:14px 28px;\n  border-radius:999px;\n  font-size:15px;\n  font-weight:700;\n  letter-spacing:.03em;\n  text-decoration:none;\n  transition:opacity .2s;\n  cursor:pointer;\n}\n#mp-hero-custom .mp-btn:hover{opacity:.85}\n#mp-hero-custom .mp-btn-primary{\n  background:#683D0E;\n  color:#fff;\n}\n#mp-hero-custom .mp-btn-secondary{\n  background:#fff;\n  color:#683D0E;\n  border:2px solid #683D0E;\n}\n@media(max-width:700px){\n  #mp-hero-custom{\n    min-height:auto;\n    background:\n      linear-gradient(180deg,rgba(236,225,207,.94) 0%,rgba(236,225,207,.82) 34%,rgba(236,225,207,.35) 56%,rgba(236,225,207,0) 74%),\n      url('https://magicperfume.co/cdn/shop/files/magic_header_mobile_1.jpg?v=1772469543') center top/cover no-repeat,\n      #ece1cf;\n  }\n  #mp-hero-custom .mp-hero-inner{\n    min-height:auto;\n    display:block;\n    padding-top:36px;\n    padding-bottom:360px;\n  }\n  #mp-hero-custom .mp-hero-copy{\n    max-width:100%;\n    text-align:center;\n  }\n  #mp-hero-custom .mp-social-proof-rating{justify-content:center}\n  #mp-hero-custom .mp-rule{margin-inline:auto}\n  #mp-hero-custom h1{font-size:30px}\n  #mp-hero-custom .mp-question{\n    font-size:20px;\n    margin-inline:auto;\n  }\n  #mp-hero-custom .mp-proof{margin-inline:auto}\n  #mp-hero-custom .mp-microcopy{\n    color:rgba(0,0,0,.75);\n    font-weight:600;\n  }\n  #mp-hero-custom .mp-cta-group{\n    justify-content:center;\n  }\n  #mp-hero-custom .mp-btn{\n    width:100%;\n    max-width:320px;\n  }\n}\n</style>\n\n<section id=\"mp-hero-custom\">\n  <div class=\"mp-container\">\n    <div class=\"mp-hero-inner\">\n      <div class=\"mp-hero-copy\">\n\n        <div class=\"mp-social-proof\">\n          <span class=\"mp-social-proof-top\">Loved by over 10,000 perfume lovers</span>\n          <div class=\"mp-social-proof-rating\">\n            <span class=\"mp-stars\">&#9733;&#9733;&#9733;&#9733;&#9733;</span>\n            <span class=\"mp-rating-text\">4.6/5 stars</span>\n          </div>\n          <span class=\"mp-social-proof-sub\">Who still cannot tell the difference.</span>\n        </div>\n\n        <h1>Premium-quality fragrance dupes</h1>\n\n        <div class=\"mp-rule\"></div>\n\n        <div class=\"mp-question\">Without the bottle and logo: would you notice the difference?</div>\n\n        <p class=\"mp-proof\">&Uuml;berzeug dich selbst.</p>\n\n        <div class=\"mp-cta-group\">\n          <a href=\"https://magicperfume.co/collections/best-sellers\" class=\"mp-btn mp-btn-primary\">Discover bestsellers</a>\n          <a href=\"https://magicperfume.co/collections/best-sellers?pb=0#quiz\" class=\"mp-btn mp-btn-secondary\">Find your favorite perfume</a>\n        </div>\n\n      </div>\n    </div>\n  </div>\n</section>",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
@@ -38,9 +38,9 @@
         "background_color": "#ffffff",
         "background_image": "shopify://shop_images/magic_header_1.png",
         "mobile_background_image": "shopify://shop_images/magic_header_mobile_1.jpg",
-        "title": "Riech luxuriös – ohne schlechtes Gewissen.",
-        "subtitle": "Premium-Qualität Duft-Zwillinge",
-        "button_text": "Finde den Duft, der dich definiert.",
+        "title": "Smell luxurious – without the guilt.",
+        "subtitle": "Premium-quality fragrance dupes",
+        "button_text": "Find the scent that defines you.",
         "button_link": "#quiz-HoOR5K",
         "second_button_text": "Bestellers",
         "second_button_link": "shopify://collections/best-sellers",
@@ -52,7 +52,7 @@
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<style>\n#mp-trust-custom{\n  padding:40px 0;\n  background:#fff;\n  border-bottom:1px solid #f2ede4;\n}\n#mp-trust-custom .mp-container{\n  width:min(1180px,calc(100% - 36px));\n  margin-inline:auto;\n}\n#mp-trust-custom .mp-trust-grid{\n  display:grid;\n  grid-template-columns:repeat(4,1fr);\n  gap:0;\n}\n#mp-trust-custom .mp-trust-item{\n  text-align:center;\n  padding:16px 24px;\n  border-right:1px solid #f2ede4;\n}\n#mp-trust-custom .mp-trust-item:last-child{\n  border-right:none;\n}\n#mp-trust-custom .mp-icon{\n  height:44px;\n  margin:0 auto 14px;\n  color:#683D0E;\n}\n#mp-trust-custom .mp-icon svg{\n  width:36px;\n  height:36px;\n}\n#mp-trust-custom h3{\n  margin:0 0 6px;\n  font-size:15px;\n  font-weight:800;\n  letter-spacing:.3px;\n  color:#121212;\n  line-height:1.3;\n}\n#mp-trust-custom p{\n  margin:0;\n  font-size:13.5px;\n  line-height:1.6;\n  color:rgba(0,0,0,.55);\n}\n@media(max-width:700px){\n  #mp-trust-custom{padding:24px 0}\n  #mp-trust-custom .mp-trust-grid{\n    grid-template-columns:1fr 1fr;\n    gap:0;\n  }\n  #mp-trust-custom .mp-trust-item{\n    padding:16px 12px;\n    border-right:1px solid #f2ede4;\n    border-bottom:1px solid #f2ede4;\n  }\n  #mp-trust-custom .mp-trust-item:nth-child(2n){border-right:none}\n  #mp-trust-custom .mp-trust-item:nth-last-child(-n+2){border-bottom:none}\n  #mp-trust-custom h3{font-size:13px}\n  #mp-trust-custom p{font-size:12.5px}\n}\n</style>\n\n<section id=\"mp-trust-custom\">\n  <div class=\"mp-container\">\n    <div class=\"mp-trust-grid\">\n\n      <div class=\"mp-trust-item\">\n        <div class=\"mp-icon\" aria-hidden=\"true\">\n          <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"4\" y=\"7.5\" width=\"16\" height=\"12.5\" rx=\"1\"/><path d=\"M4 7.5 6.5 4h11L20 7.5\"/><path d=\"M12 4v3.5\"/><path d=\"M9.5 12h5\"/></svg>\n        </div>\n        <h3>Hergestellt in Europa</h3>\n        <p>IFRA-konform, ohne Phthalate &amp; Parabene.</p>\n      </div>\n\n      <div class=\"mp-trust-item\">\n        <div class=\"mp-icon\" aria-hidden=\"true\">\n          <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 3.5c3.4 4.3 5.8 7.4 5.8 10.2a5.8 5.8 0 1 1-11.6 0C6.2 10.9 8.6 7.8 12 3.5z\"/><path d=\"M9.6 14.2a2.6 2.6 0 0 0 2.3 2.5\"/></svg>\n        </div>\n        <h3>19–21% Parf&uuml;m&ouml;l</h3>\n        <p>H&auml;lt bis zu 12 Stunden.</p>\n      </div>\n\n      <div class=\"mp-trust-item\">\n        <div class=\"mp-icon\" aria-hidden=\"true\">\n          <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"6.5\" y=\"9.5\" width=\"11\" height=\"10.5\" rx=\"1.5\"/><path d=\"M10.5 9.5V7h3v2.5\"/><rect x=\"9.5\" y=\"3.8\" width=\"5\" height=\"3.2\" rx=\".8\"/></svg>\n        </div>\n        <h3>Von echten Parf&uuml;mexperten</h3>\n        <p>Entwickelt von denselben Experten hinter Weltmarken.</p>\n      </div>\n\n      <div class=\"mp-trust-item\">\n        <div class=\"mp-icon\" aria-hidden=\"true\">\n          <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 3.5 19 6v5.4c0 4.4-2.9 7.7-7 9.1-4.1-1.4-7-4.7-7-9.1V6z\"/><path d=\"m9 11.9 2.2 2.2 3.8-4.2\"/></svg>\n        </div>\n        <h3>60 Tage Garantie</h3>\n        <p>Nicht &uuml;berzeugt? R&uuml;ckgabe innerhalb von 60 Tagen.</p>\n      </div>\n\n    </div>\n  </div>\n</section>",
+        "custom_liquid": "<style>\n#mp-trust-custom{\n  padding:40px 0;\n  background:#fff;\n  border-bottom:1px solid #f2ede4;\n}\n#mp-trust-custom .mp-container{\n  width:min(1180px,calc(100% - 36px));\n  margin-inline:auto;\n}\n#mp-trust-custom .mp-trust-grid{\n  display:grid;\n  grid-template-columns:repeat(4,1fr);\n  gap:0;\n}\n#mp-trust-custom .mp-trust-item{\n  text-align:center;\n  padding:16px 24px;\n  border-right:1px solid #f2ede4;\n}\n#mp-trust-custom .mp-trust-item:last-child{\n  border-right:none;\n}\n#mp-trust-custom .mp-icon{\n  height:44px;\n  margin:0 auto 14px;\n  color:#683D0E;\n}\n#mp-trust-custom .mp-icon svg{\n  width:36px;\n  height:36px;\n}\n#mp-trust-custom h3{\n  margin:0 0 6px;\n  font-size:15px;\n  font-weight:800;\n  letter-spacing:.3px;\n  color:#121212;\n  line-height:1.3;\n}\n#mp-trust-custom p{\n  margin:0;\n  font-size:13.5px;\n  line-height:1.6;\n  color:rgba(0,0,0,.55);\n}\n@media(max-width:700px){\n  #mp-trust-custom{padding:24px 0}\n  #mp-trust-custom .mp-trust-grid{\n    grid-template-columns:1fr 1fr;\n    gap:0;\n  }\n  #mp-trust-custom .mp-trust-item{\n    padding:16px 12px;\n    border-right:1px solid #f2ede4;\n    border-bottom:1px solid #f2ede4;\n  }\n  #mp-trust-custom .mp-trust-item:nth-child(2n){border-right:none}\n  #mp-trust-custom .mp-trust-item:nth-last-child(-n+2){border-bottom:none}\n  #mp-trust-custom h3{font-size:13px}\n  #mp-trust-custom p{font-size:12.5px}\n}\n</style>\n\n<section id=\"mp-trust-custom\">\n  <div class=\"mp-container\">\n    <div class=\"mp-trust-grid\">\n\n      <div class=\"mp-trust-item\">\n        <div class=\"mp-icon\" aria-hidden=\"true\">\n          <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"4\" y=\"7.5\" width=\"16\" height=\"12.5\" rx=\"1\"/><path d=\"M4 7.5 6.5 4h11L20 7.5\"/><path d=\"M12 4v3.5\"/><path d=\"M9.5 12h5\"/></svg>\n        </div>\n        <h3>Made in Europe</h3>\n        <p>IFRA-konform, ohne Phthalate &amp; Parabene.</p>\n      </div>\n\n      <div class=\"mp-trust-item\">\n        <div class=\"mp-icon\" aria-hidden=\"true\">\n          <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 3.5c3.4 4.3 5.8 7.4 5.8 10.2a5.8 5.8 0 1 1-11.6 0C6.2 10.9 8.6 7.8 12 3.5z\"/><path d=\"M9.6 14.2a2.6 2.6 0 0 0 2.3 2.5\"/></svg>\n        </div>\n        <h3>19–21% Parf&uuml;m&ouml;l</h3>\n        <p>Lasts up to 12 hours.</p>\n      </div>\n\n      <div class=\"mp-trust-item\">\n        <div class=\"mp-icon\" aria-hidden=\"true\">\n          <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"6.5\" y=\"9.5\" width=\"11\" height=\"10.5\" rx=\"1.5\"/><path d=\"M10.5 9.5V7h3v2.5\"/><rect x=\"9.5\" y=\"3.8\" width=\"5\" height=\"3.2\" rx=\".8\"/></svg>\n        </div>\n        <h3>From real perfume experts</h3>\n        <p>Developed by the same experts behind global brands.</p>\n      </div>\n\n      <div class=\"mp-trust-item\">\n        <div class=\"mp-icon\" aria-hidden=\"true\">\n          <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 3.5 19 6v5.4c0 4.4-2.9 7.7-7 9.1-4.1-1.4-7-4.7-7-9.1V6z\"/><path d=\"m9 11.9 2.2 2.2 3.8-4.2\"/></svg>\n        </div>\n        <h3>60-day guarantee</h3>\n        <p>Not convinced? Return within 60 days.</p>\n      </div>\n\n    </div>\n  </div>\n</section>",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
@@ -66,10 +66,10 @@
         "background_color": "#fcfbf9",
         "background_image": "shopify://shop_images/TryScent_Days.png",
         "mobile_background_image": "shopify://shop_images/TryScent_Days_Mobile.png",
-        "review_text": "VON 10.000 KUNDEN GELIEBT",
-        "title": "Magic Perfume Days! Riech wie die Reichen",
-        "subtitle": "Dein Lieblingsduft. Premium-Qualität. 95% günstiger.",
-        "button_text": "Ab 4,59 Euro pro Flasche",
+        "review_text": "LOVED BY 10,000 CUSTOMERS",
+        "title": "Magic Perfume Days! Smell like the rich",
+        "subtitle": "Your favorite scent. Premium quality. 95% less.",
+        "button_text": "From €4.59 per bottle",
         "button_link": "shopify://collections/payday-4-2",
         "secondary_button_text": "Not sure yet? Explore More →",
         "secondary_button_link": "",
@@ -85,7 +85,7 @@
         "heading_c6chEf": {
           "type": "heading",
           "settings": {
-            "content": "Mehr als nur ein Duft. Ein Statement.",
+            "content": "More than a fragrance. A statement.",
             "heading_type": "h2",
             "font_size": 28,
             "mobile_font_size": 20,
@@ -95,7 +95,7 @@
         "text_VJRcpx": {
           "type": "text",
           "settings": {
-            "content": "<p>Entwickelt für alle, die selbstbewusst auftreten und einen bleibenden Eindruck hinterlassen.</p>",
+            "content": "<p>Designed for anyone who wants to exude confidence and leave a lasting impression.</p>",
             "mobile_content": "",
             "font_size": 18,
             "text_color": "#eff0f5"
@@ -104,7 +104,7 @@
         "button_rGwjWF": {
           "type": "button",
           "settings": {
-            "button_text": "Alle anzeigen",
+            "button_text": "View all",
             "button_url": "shopify://collections",
             "button_color": "#ffffff",
             "text_color": "#000000"
@@ -144,32 +144,32 @@
           "type": "perks",
           "settings": {
             "perk_image": "shopify://shop_images/Screenshot_2026-02-03_at_12.00.15_PM.png",
-            "perk_title": "Kostenloser Versand ab 55€",
-            "perk_content": "Nur diese Woche"
+            "perk_title": "Free shipping on orders over €55",
+            "perk_content": "This week only"
           }
         },
         "perks_x8n9DF": {
           "type": "perks",
           "settings": {
             "perk_image": "shopify://shop_images/Screenshot_2026-02-03_at_12.04.49_PM.png",
-            "perk_title": "Treuerabatte für Stammkunden",
-            "perk_content": "Gutscheine bis zu 100€"
+            "perk_title": "Loyalty discounts for returning customers",
+            "perk_content": "Vouchers worth up to €100"
           }
         },
         "perks_yTdgqz": {
           "type": "perks",
           "settings": {
             "perk_image": "shopify://shop_images/Screenshot_2026-02-03_at_12.05.39_PM.png",
-            "perk_title": "Kostenlose Geschenke - Tester",
-            "perk_content": "Mit persönlicher Nachricht (bis 100 Zeichen)"
+            "perk_title": "Free gifts - samples",
+            "perk_content": "With a personal message (up to 100 characters)"
           }
         },
         "perks_7zj6gB": {
           "type": "perks",
           "settings": {
             "perk_image": "shopify://shop_images/Screenshot_2026-02-03_at_12.07.45_PM.png",
-            "perk_title": "Persönliche Beratung",
-            "perk_content": "Täglich von 8 bis 20 Uhr"
+            "perk_title": "Personal advice",
+            "perk_content": "Daily from 8 a.m. to 8 p.m."
           }
         }
       },
@@ -192,10 +192,10 @@
       "name": "Popular Products",
       "settings": {
         "background_color": "#f7f7f7",
-        "heading": "Neue Düfte",
+        "heading": "New fragrances",
         "subheading": "",
         "collection": "neue-dufte",
-        "show_all_button_text": "Alle Bestseller ansehen",
+        "show_all_button_text": "View all bestsellers",
         "padding_top": 32,
         "padding_bottom": 72
       }
@@ -208,7 +208,7 @@
         "heading": "BESTSELLERS",
         "subheading": "",
         "collection": "bestseller-singles",
-        "show_all_button_text": "Alle Bestseller ansehen",
+        "show_all_button_text": "View all bestsellers",
         "padding_top": 72,
         "padding_bottom": 72
       }
@@ -219,7 +219,7 @@
         "heading_CcxYji": {
           "type": "heading",
           "settings": {
-            "content": "Warum fühlen sich in der EU hergestellte Parfums anders an?",
+            "content": "Why do EU-made perfumes feel different?",
             "heading_type": "h2",
             "font_size": 40,
             "mobile_font_size": 24,
@@ -229,7 +229,7 @@
         "text_gHnd8C": {
           "type": "text",
           "settings": {
-            "content": "<p>Hergestellt in EU-Anlagen mit Inhaltsstoffen und Zusammensetzungen, die den IFRA-Anforderungen entsprechen.</p><ul><li>Phthalatefrei</li><li>Ohne Parabene</li><li>Vegan</li><li>Nicht an Tieren getestet</li><li>IFRA-zertifiziert</li><li>Nach EU-Standards entwickelt</li><li>Keine bekannten hormonellen Störstoffe</li></ul><p>Wir stellen Parfums nach strengen europäischen Kosmetikstandards her</p>",
+            "content": "<p>Made in EU facilities with ingredients and formulations that meet IFRA requirements.</p><ul><li>Phthalatefrei</li><li>Ohne Parabene</li><li>Vegan</li><li>Not tested on animals</li><li>IFRA-zertifiziert</li><li>Nach EU-Standards entwickelt</li><li>No known endocrine disruptors</li></ul><p>We make perfumes to strict European cosmetics standards</p>",
             "mobile_content": "",
             "font_size": 18,
             "text_color": "#000000"
@@ -303,23 +303,23 @@
           "settings": {
             "tab_title": "🔥 BESTSELLERS",
             "collection": "best-sellers",
-            "button_text": "Alle anzeigen"
+            "button_text": "View all"
           }
         },
         "collection_xgUpzQ": {
           "type": "collection",
           "settings": {
-            "tab_title": "FÜR FRAUEN",
+            "tab_title": "FOR WOMEN",
             "collection": "fuer-frauen",
-            "button_text": "Alle anzeigen"
+            "button_text": "View all"
           }
         },
         "collection_3WBTm3": {
           "type": "collection",
           "settings": {
-            "tab_title": "FÜR MÄNNER",
+            "tab_title": "FOR MEN",
             "collection": "fuer-maenner",
-            "button_text": "Alle anzeigen"
+            "button_text": "View all"
           }
         }
       },
@@ -331,8 +331,8 @@
       "name": "Homepage Products Tab",
       "settings": {
         "background_color": "#f7f7f7",
-        "heading": "Ein Duft für jede Facette Ihrer Persönlichkeit",
-        "subheading": "Entdecke Parfums, die sich mit deinem Stil und deiner Ausstrahlung weiterentwickeln.",
+        "heading": "A fragrance for every facet of your personality",
+        "subheading": "Discover perfumes that evolve with your style and presence.",
         "padding_top": 72,
         "padding_bottom": 72
       }
@@ -343,50 +343,50 @@
         "stack_aypyrg": {
           "type": "stack",
           "settings": {
-            "stack_heading": "Parfümkonzentration",
-            "stack_subheading": "Mehr Öl = längere Haltbarkeit"
+            "stack_heading": "Perfume concentration",
+            "stack_subheading": "More oil = longer-lasting fragrance"
           }
         },
         "stack_WRLjfe": {
           "type": "stack",
           "settings": {
-            "stack_heading": "Hält 8–12 Stunden auf der Haut",
-            "stack_subheading": "Hält länger als die meisten Designer-EDTs"
+            "stack_heading": "Lasts 8–12 hours on skin",
+            "stack_subheading": "Lasts longer than most designer EDTs"
           }
         },
         "stack_i9RNmg": {
           "type": "stack",
           "settings": {
-            "stack_heading": "90 % günstiger als der Designerpreis",
-            "stack_subheading": "Ohne Kompromisse bei der Qualität"
+            "stack_heading": "90% less than the designer price",
+            "stack_subheading": "No compromise on quality"
           }
         },
         "stack_cRW46m": {
           "type": "stack",
           "settings": {
-            "stack_heading": "Exakt derselbe Duft wie das Original",
-            "stack_subheading": "Kreiert mit denselben Duftakkorden"
+            "stack_heading": "Exactly the same scent as the original",
+            "stack_subheading": "Created with the same fragrance accords"
           }
         },
         "stack_pbqqYL": {
           "type": "stack",
           "settings": {
-            "stack_heading": "Versand innerhalb von 24 Stunden",
-            "stack_subheading": "Kein Warten im Geschäft"
+            "stack_heading": "Dispatch within 24 hours",
+            "stack_subheading": "No waiting in store"
           }
         },
         "stack_Kfeqb4": {
           "type": "stack",
           "settings": {
             "stack_heading": "Tierversuchsfreie Formel",
-            "stack_subheading": "Reine Inhaltsstoffe, hautverträglich"
+            "stack_subheading": "Pure ingredients, gentle on skin"
           }
         },
         "stack_nizxYb": {
           "type": "stack",
           "settings": {
-            "stack_heading": "60 Tage Geld-zurück-Garantie",
-            "stack_subheading": "Liebe ihn oder erhalte den vollen Kaufpreis zurück – ohne Wenn und Aber"
+            "stack_heading": "60-day money-back guarantee",
+            "stack_subheading": "Love it or get a full refund – no ifs or buts"
           }
         }
       },
@@ -402,8 +402,8 @@
       "name": "Stacks Up",
       "settings": {
         "background_color": "#ffffff",
-        "title": "Wie MagicPerfume im Vergleich zur Konkurrenz abschneidet",
-        "btn_text": "Alle anzeigen",
+        "title": "How MagicPerfume compares to the competition",
+        "btn_text": "View all",
         "btn_url": "shopify://collections/all",
         "padding_top": 60,
         "padding_bottom": 60
@@ -416,7 +416,7 @@
           "type": "review",
           "settings": {
             "review_image": "shopify://shop_images/WhatsApp_Image_2026-09-09_at_8.35.55_AM.jpg",
-            "content": "<p>„Das war meine erste Bestellung hier und ich bin echt begeistert. Ich kauf mein Parfüm ab jetzt nirgendwo anders mehr. Ich hab vorher nie einen Duft-Dupe gefunden, der wirklich authentisch riecht und dabei auch konstant gleich gut bleibt.“</p>",
+            "content": "<p>“This was my first order here and I am really impressed. I will not be buying my perfume anywhere else from now on. I had never found a fragrance dupe that smelled truly authentic and stayed consistently good before.”</p>",
             "author": "Sebastian Müller",
             "date": "vor 1 Tag",
             "rating": 5,
@@ -429,7 +429,7 @@
           "disabled": true,
           "settings": {
             "review_image": "shopify://shop_images/WhatsApp_Image_2026-09-09_at_8.35.36_AM_1.jpg",
-            "content": "<p>„Ehrlich, einer der besten Düfte, die ich seit Jahren gerochen habe. Die Noten sind einfach brutal gut. Der bleibt definitiv dauerhaft in meiner Sammlung.“</p>",
+            "content": "<p>“Honestly, one of the best fragrances I have smelled in years. The notes are incredibly good. This is definitely staying in my collection.”</p>",
             "author": "Emilia Wagner",
             "author_image": "shopify://shop_images/magic_ugc_female_01.webp",
             "date": "vor 2 Tagen",
@@ -442,7 +442,7 @@
           "type": "review",
           "settings": {
             "review_image": "shopify://shop_images/WhatsApp_Image_2026-09-09_at_8.35.37_AM.jpg",
-            "content": "<p>„Alle drei Düfte, die ich bestellt habe, riechen echt richtig gut und halten auch lange. Die Düfte sind wirklich nah an den Originalen. Das Einzige war die Lieferzeit, die etwas länger gedauert hat. Aber ganz ehrlich – ich hab trotzdem direkt nochmal bestellt 😄 Man muss nur ein bisschen Geduld haben.“</p>",
+            "content": "<p>“All three fragrances I ordered smell really good and last a long time, too. They are really close to the originals. The only thing was delivery, which took a little longer. But honestly – I still placed another order straight away 😄 You just need a little patience.”</p>",
             "author": "Clara P.",
             "date": "vor 2 Tagen",
             "rating": 5,
@@ -454,7 +454,7 @@
           "type": "review",
           "settings": {
             "review_image": "shopify://shop_images/WhatsApp_Image_2026-09-09_at_8.33.40_AM.jpg",
-            "content": "<p>„Ich hab ewig nach Düften gesucht, die hochwertig riechen und auch lange halten. Genau so einen Duft hab ich gesucht.“</p>",
+            "content": "<p>“I spent ages looking for fragrances that smell high-quality and last a long time. This is exactly the kind of fragrance I was looking for.”</p>",
             "author": "Daniel Roth",
             "date": "vor 2 Tagen",
             "rating": 4,
@@ -466,7 +466,7 @@
           "type": "review",
           "settings": {
             "review_image": "shopify://shop_images/2026-07-02_16h58_13.webp",
-            "content": "<p>„Wusste erst nicht genau, was mich erwartet, aber der Duft hat mich echt positiv überrascht. Riecht super frisch und kommt Aventus ziemlich nah. Hält ordentlich und der Preis ist einfach deutlich besser.“</p>",
+            "content": "<p>“I was not sure what to expect at first, but the scent really surprised me in a good way. It smells really fresh and comes very close to Aventus. It lasts well and the price is much better.”</p>",
             "author": "Michael T.",
             "date": "vor 2 Tagen",
             "rating": 4,
@@ -478,7 +478,7 @@
           "type": "review",
           "settings": {
             "review_image": "shopify://shop_images/magic_175_review.png",
-            "content": "<p>„Einer meiner absoluten Lieblingsdüfte. War super schnell da und riecht einfach richtig gut.“</p>",
+            "content": "<p>“One of my absolute favorite fragrances. It arrived really quickly and smells great.”</p>",
             "author": "Jonas Hartmann",
             "date": "vor 2 Tagen",
             "rating": 5,
@@ -490,7 +490,7 @@
           "type": "review",
           "settings": {
             "review_image": "shopify://shop_images/2026-07-02_16h55_49.webp",
-            "content": "<p>„Meine Freundin meinte direkt, dass ich gut rieche 😄 Seitdem benutze ich ihn fast jeden Tag.“</p>",
+            "content": "<p>“My girlfriend immediately said I smelled good 😄 I have been using it almost every day since.”</p>",
             "author": "Clara M.",
             "date": "vor 5 Tagen",
             "rating": 4,
@@ -502,7 +502,7 @@
           "type": "review",
           "settings": {
             "review_image": "shopify://shop_images/WhatsApp_Image_2026-09-09_at_8.35.50_AM.jpg",
-            "content": "<p>„Am Anfang war ich etwas besorgt, weil sich die Lieferung verzögert hat. Aber als das Parfüm angekommen ist und sich der Duft erst mal gesetzt hat – wow, einfach unglaublich gut.“</p>",
+            "content": "<p>“At first I was a little worried because delivery was delayed. But once the perfume arrived and the scent settled – wow, just incredibly good.”</p>",
             "author": "Lionel M.",
             "date": "vor 7 Tag",
             "rating": 5,
@@ -514,7 +514,7 @@
           "type": "review",
           "settings": {
             "review_image": "shopify://shop_images/261_revie.webp",
-            "content": "<p>„War erst unsicher wegen dem Preis, aber die Qualität hat mich echt überzeugt. Würde ich sofort wieder kaufen.“</p>",
+            "content": "<p>“I was unsure at first because of the price, but the quality really won me over. I would buy it again straight away.”</p>",
             "author": "Matthias Krüger",
             "author_image": "shopify://shop_images/magic_ugc_male_01.webp",
             "date": "vor 2 Monaten",
@@ -527,7 +527,7 @@
           "type": "review",
           "settings": {
             "review_image": "shopify://shop_images/2026-07-02_16h41_42.webp",
-            "content": "<p>\"Ist perfekt und wunderschön 🥰🥰🥰\"</p>",
+            "content": "<p>\"It is perfect and beautiful 🥰🥰🥰\"</p>",
             "author": "Lidis A.",
             "date": "vor 2 Monaten",
             "rating": 5,
@@ -538,7 +538,7 @@
         "review_bjRzPy": {
           "type": "review",
           "settings": {
-            "content": "<p>\"Riecht sehr gut, es hat mich fasziniert\"</p>",
+            "content": "<p>\"Smells very good, I was captivated\"</p>",
             "author": "Castillo B.",
             "date": "vor 3 Monaten",
             "rating": 5,
@@ -550,7 +550,7 @@
           "type": "review",
           "settings": {
             "review_image": "shopify://shop_images/2026-07-22_16h43_29.png",
-            "content": "<p>„Die Parfüms riechen einfach perfekt und die Düfte halten richtig lange. Wirklich tolle Qualität.“<br/></p>",
+            "content": "<p>“The perfumes smell perfect and the scents last a really long time. Truly great quality.”<br/></p>",
             "author": "Kamila G.",
             "date": "vor 3 Monaten",
             "rating": 5,
@@ -562,7 +562,7 @@
           "type": "review",
           "settings": {
             "review_image": "shopify://shop_images/Mounissa_Soilihi.webp",
-            "content": "<p>\"Riecht genau wie Luna Rossa Carbon, aber viel günstiger. Kann nicht glauben, wie nah es dran ist.\"</p>",
+            "content": "<p>\"Smells just like Luna Rossa Carbon, but much cheaper. I cannot believe how close it is.\"</p>",
             "author": "Robinson D.",
             "date": "vor 4 Monaten",
             "rating": 4,
@@ -574,7 +574,7 @@
           "type": "review",
           "settings": {
             "review_image": "shopify://shop_images/magic_revie.png",
-            "content": "<p>„So ein Duft, bei dem man sich direkt frisch und gepflegt fühlt. Nicht zu aufdringlich, einfach genau richtig. 👌“</p>",
+            "content": "<p>“A scent that makes you feel fresh and well-groomed straight away. Not too overpowering, just right. 👌”</p>",
             "author": "Michael R.",
             "date": "vor 4 Monaten",
             "rating": 5,
@@ -586,7 +586,7 @@
           "type": "review",
           "settings": {
             "review_image": "shopify://shop_images/Daria_Kononenko_2.webp",
-            "content": "<p>„Ich kenne Creed Aventus schon seit Jahren und muss ehrlich sagen: Das ist bisher einer der besten Dupes, die ich gefunden habe. Die Ananas- und Vanillenoten kommen richtig gut rüber und für den Preis kann man echt nichts sagen.“</p>",
+            "content": "<p>“I have known Creed Aventus for years and I have to say honestly: this is one of the best dupes I have found so far. The pineapple and vanilla notes really come through, and you cannot complain about the price.”</p>",
             "author": "Alvarez P.",
             "date": "vor 4 Monaten",
             "rating": 4,
@@ -598,7 +598,7 @@
           "type": "review",
           "settings": {
             "review_image": "shopify://shop_images/Carolina_Maresca_2.webp",
-            "content": "<p>\"Das Produkt kam schön verpackt an. Das Parfüm war nicht kaputt, ist nicht ausgelaufen und war in gutem Zustand. Der Duft ist perfekt und roch nicht schlecht. Ich liebe es, hohe Qualität\"</p>",
+            "content": "<p>\"The product arrived nicely packaged. The perfume was not broken or leaking and was in good condition. The scent is perfect and did not smell bad. I love it, high quality\"</p>",
             "author": "Anne E.",
             "date": "vor 4 Monaten",
             "rating": 4,
@@ -609,7 +609,7 @@
         "review_8FxpJj": {
           "type": "review",
           "settings": {
-            "content": "<p>„Wunderschöner Duft, der echt lange hält. Schön süß und warm. Lieferung ging auch super schnell. Werde auf jeden Fall wieder bestellen.“</p>",
+            "content": "<p>“Beautiful scent that really lasts. Lovely, sweet and warm. Delivery was really quick, too. I will definitely order again.”</p>",
             "author": "Lucy R",
             "date": "vor 4 Monaten",
             "rating": 5,
@@ -621,7 +621,7 @@
           "type": "review",
           "settings": {
             "review_image": "shopify://shop_images/2026-07-02_16h57_29.webp",
-            "content": "<p>„Bin echt zufrieden mit Magic Perfume. Der Duft kommt dem Original ziemlich nah und hält bei mir auch echt gut. Verpackung war ordentlich und die Flasche macht ebenfalls einen hochwertigen Eindruck. Für den Preis auf jeden Fall eine richtig gute Alternative.“</p>",
+            "content": "<p>“I am really happy with Magic Perfume. The scent comes very close to the original and lasts really well on me. The packaging was neat and the bottle feels high-quality, too. Definitely a great alternative for the price.”</p>",
             "author": "Alina M",
             "date": "vor 5 Monaten",
             "rating": 5,
@@ -632,7 +632,7 @@
         "review_9T4pt3": {
           "type": "review",
           "settings": {
-            "content": "<p>„Die Produkte haben echt eine tolle Qualität und das zu einem richtig guten Preis.“</p>",
+            "content": "<p>“The products are really high-quality and at a really good price.”</p>",
             "author": "Amanda G",
             "date": "vor 5 Monaten",
             "rating": 4,
@@ -644,7 +644,7 @@
           "type": "review",
           "settings": {
             "review_image": "shopify://shop_images/Anastasiia_Komisarova.webp",
-            "content": "<p>\"Tolle Düfte, tolle Produkte, keine Probleme.\"</p>",
+            "content": "<p>\"Great fragrances, great products, no problems.\"</p>",
             "author": "Alex S.",
             "date": "vor 6 Monaten",
             "rating": 5,
@@ -655,7 +655,7 @@
         "review_YtFw34": {
           "type": "review",
           "settings": {
-            "content": "<p>\"Das Produkt kam schön verpackt an. Das Parfüm war nicht kaputt, ist nicht ausgelaufen und war in gutem Zustand. Der Duft ist perfekt und roch nicht schlecht. Ich liebe es, hohe Qualität\"</p>",
+            "content": "<p>\"The product arrived nicely packaged. The perfume was not broken or leaking and was in good condition. The scent is perfect and did not smell bad. I love it, high quality\"</p>",
             "author": "Roxanne S",
             "date": "vor 5 Monaten",
             "rating": 5,
@@ -666,7 +666,7 @@
         "review_WnPpEf": {
           "type": "review",
           "settings": {
-            "content": "<p>\"Vom Service bis zum Produkt war die Erfahrung phänomenal. Kaufe gerne jederzeit wieder.\"</p>",
+            "content": "<p>\"From the service to the product, the experience was phenomenal. I would happily buy again anytime.\"</p>",
             "author": "Benjamin M",
             "date": "vor 5 Monaten",
             "rating": 5,
@@ -677,7 +677,7 @@
         "review_jRgbTk": {
           "type": "review",
           "settings": {
-            "content": "<p>\"Großartiges Produkt! Super erschwingliche Alternative zu den Markenparfüms. Der Duft hält lange und man bekommt viel für sein Geld\"</p>",
+            "content": "<p>\"Great product! A super affordable alternative to designer perfumes. The scent lasts a long time and you get a lot for your money\"</p>",
             "author": "EM",
             "date": "4 Months ago",
             "rating": 5,
@@ -688,7 +688,7 @@
         "review_GbhyC3": {
           "type": "review",
           "settings": {
-            "content": "<p>\"Omg ich liebte es Wow! Genau wie das Original und es hält den ganzen Tag!❤️‍🔥❤️‍🔥\"</p>",
+            "content": "<p>\"Omg I loved it, wow! Just like the original and it lasts all day!❤️‍🔥❤️‍🔥\"</p>",
             "author": "شيطانة YT",
             "date": "4 Months ago",
             "rating": 4,
@@ -699,7 +699,7 @@
         "review_C3bd9b": {
           "type": "review",
           "settings": {
-            "content": "<p>\"Der Duft dieses Parfüms ist super reichhaltig und ich liebe wie schön die Flasche und ihr Design ist.. Ich würde es wirklich wieder verwenden.\"</p>",
+            "content": "<p>\"The scent of this perfume is really rich and I love how beautiful the bottle and its design are. I would definitely use it again.\"</p>",
             "author": "Eliannys Y",
             "date": "vor 7 Monaten",
             "rating": 5,
@@ -710,7 +710,7 @@
         "review_NYCPwJ": {
           "type": "review",
           "settings": {
-            "content": "<p>\"Ich mag es! Mag diesen Duft. Guter Duft\"</p>",
+            "content": "<p>\"I like it! Love this scent. Good fragrance\"</p>",
             "author": "Aleksandra M",
             "date": "vor 7 Monaten",
             "rating": 5,
@@ -721,7 +721,7 @@
         "review_EniFK9": {
           "type": "review",
           "settings": {
-            "content": "<p>\"Tolles Produkt, riecht fantastisch. Ich bekomme immer Leute, die mir Fragen zu meinem Duft stellen und was ich benutze\"</p>",
+            "content": "<p>\"Great product, smells fantastic. People are always asking me about my scent and what I use\"</p>",
             "author": "Damario R",
             "date": "vor 7 Monaten",
             "rating": 5,
@@ -732,7 +732,7 @@
         "review_r8Gi8i": {
           "type": "review",
           "settings": {
-            "content": "<p>\"Tolle Marke und tolle Produkte!\"</p>",
+            "content": "<p>\"Great brand and great products!\"</p>",
             "author": "Juliana B",
             "date": "4 Months ago",
             "rating": 5,
@@ -743,7 +743,7 @@
         "review_LRkiUH": {
           "type": "review",
           "settings": {
-            "content": "<p>\"Nach einer kleinen Verzögerung habe ich endlich meine Magic Perfume-Parfüms und sie sind genau richtig! Ich kann fast nicht glauben, wie genau sie den Originalen entsprechen, zur Referenz habe ich \"Ylang Ylang Rose Jasmine\" und \"Aldehydes Rose Sandalwood\" bekommen, es sind wirklich schöne Düfte\"</p>",
+            "content": "<p>\"After a small delay, I finally received my Magic Perfume perfumes and they are just right! I can hardly believe how closely they match the originals. For reference, I got \"Ylang Ylang Rose Jasmine\" and \"Aldehydes Rose Sandalwood\"; they are really lovely fragrances\"</p>",
             "author": "Gabriella K",
             "date": "vor 7 Monaten",
             "rating": 5,
@@ -754,7 +754,7 @@
         "review_Vb9HW7": {
           "type": "review",
           "settings": {
-            "content": "<p>\"Sehr gute Marke, ich liebe die Verpackung und das Aroma\"</p>",
+            "content": "<p>\"Very good brand, I love the packaging and the aroma\"</p>",
             "author": "Rosa B",
             "date": "vor 7 Monaten",
             "rating": 5,
@@ -765,7 +765,7 @@
         "review_JdiNyt": {
           "type": "review",
           "settings": {
-            "content": "<p>\"Ich bin ein großer Kölnisch-Wasser-Fan, also bin ich ein wählerischer Typ, wenn es um Klone geht, aber Magic Perfume hat mich komplett überzeugt. Ich habe ursprünglich den Sauvage-Klon auf der Homepage bestellt und den Duft beim Sprühen sofort erkannt. Ich besitze jetzt insgesamt 4 Magic Perfume-Düfte und ich liebe sie alle. Habe dank ihrer Bundle-Angebote 3 weitere auf dem Weg. Wenn du etwas willst, das mit kleinem Budget funktioniert und Designer-Leistung liefert, könnte ich sie nicht mehr empfehlen.\"</p>",
+            "content": "<p>\"I am a big cologne fan, so I am picky when it comes to clones, but Magic Perfume has completely won me over. I originally ordered the Sauvage clone from the homepage and recognized the scent as soon as I sprayed it. I now own 4 Magic Perfume fragrances and love them all. I have 3 more on the way thanks to their bundle offers. If you want something affordable that delivers designer performance, I cannot recommend them enough.\"</p>",
             "author": "Sean P",
             "date": "4 Months ago",
             "rating": 5,
@@ -776,7 +776,7 @@
         "review_bNVhH6": {
           "type": "review",
           "settings": {
-            "content": "<p>\"Ich bin sehr zufrieden mit dem Parfüm von dieser Marke, sie haben einen so schönen Duft wie das Original und günstiger, ich werde es definitiv wieder kaufen\"</p>",
+            "content": "<p>\"I am very happy with the perfume from this brand. It has a lovely scent just like the original and is cheaper. I will definitely buy it again\"</p>",
             "author": "Angel",
             "date": "8 Months ago",
             "rating": 5,
@@ -787,7 +787,7 @@
         "review_PiLjha": {
           "type": "review",
           "settings": {
-            "content": "<p>\"Diesen Sommer bekam ich eine Probe von Creed Aventus als Geschenk und ich mochte es wirklich, aber ich konnte das Original nicht kaufen, also suchte ich nach Dupes. Ich fand Magic Perfume und bestellte \"Pineapple Smoke Vanilla\", es kam in etwa einer Woche zu mir und es riecht wirklich gut, auch nah an meiner Originalprobe, sehr zufrieden mit dem Produkt, besonders für den Preis\"</p>",
+            "content": "<p>\"This summer I received a sample of Creed Aventus as a gift and really liked it, but I could not buy the original, so I looked for dupes. I found Magic Perfume and ordered \"Pineapple Smoke Vanilla\". It arrived in about a week and smells really good, very close to my original sample. Very happy with the product, especially for the price\"</p>",
             "author": "Hwan H",
             "date": "8 Months ago",
             "rating": 5,
@@ -798,7 +798,7 @@
         "review_AEQxcH": {
           "type": "review",
           "settings": {
-            "content": "<p>\"Ich habe ihre 7,5ml Proben-Düfte ausprobiert und zu meiner Überraschung mochte ich sie. Habe eine 2. Bestellung aufgegeben, aber dieses Mal habe ich die größeren Flaschen genommen. Ich muss sagen, ich bekam meine Bestellungen pünktlich und sie lieferten die Düfte, die ich mag!\"</p>",
+            "content": "<p>\"I tried their 7.5ml fragrance samples and, to my surprise, I liked them. I placed a second order, but this time I chose the larger bottles. I have to say my orders arrived on time and they delivered the scents I like!\"</p>",
             "author": "Lauri E",
             "date": "8 Months ago",
             "rating": 5,
@@ -847,8 +847,8 @@
       "settings": {
         "background_color": "#fcfbf9",
         "heading": "Kundenrezensionen",
-        "review_text": "4,7 von 5 Sternen, basierend auf über 10.000 Bewertungen",
-        "button_text": "Weitere Bewertungen anzeigen",
+        "review_text": "4.7 out of 5 stars, based on over 10,000 reviews",
+        "button_text": "Show more reviews",
         "button_link": "",
         "padding_top": 72,
         "padding_bottom": 72
@@ -860,36 +860,36 @@
         "collapsible_row_b44n9F": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Warum sind eure Parfüms so erschwinglich?",
+            "heading": "Why are your perfumes so affordable?",
             "icon": "none",
-            "row_content": "<p>Wir konzentrieren uns auf den Duftinhalt. Kein luxuriöses Flakon, keine besondere Verpackung, keine teuren Läden & keine teuren Influencerdeals — ermöglichen dir luxuriös zu riechen, ohne das Budget zu sprengen.</p>",
+            "row_content": "<p>We focus on the fragrance itself. No luxury bottles, special packaging, expensive shops or costly influencer deals — so you can smell luxurious without breaking your budget.</p>",
             "page": ""
           }
         },
         "collapsible_row_rCVDnP": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Ist es ein Eau de Toilette oder ein Eau de Parfum?",
+            "heading": "Is it an Eau de Toilette or an Eau de Parfum?",
             "icon": "none",
-            "row_content": "<p>Nein, es ist ein Eau de Parfum – es enthält zwischen 19 % und 21 % Duftöl, je nach Parfüm. Eau de Toilette enthält zum Beispiel zwischen 5 und 15 %.</p>",
+            "row_content": "<p>No, it is an Eau de Parfum – it contains between 19% and 21% fragrance oil, depending on the perfume. Eau de Toilette, for example, contains between 5% and 15%.</p>",
             "page": ""
           }
         },
         "collapsible_row_rNbx6p": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Wie lange hält das Parfüm?",
+            "heading": "How long does the perfume last?",
             "icon": "none",
-            "row_content": "<p>Das Parfüm hält je nach Person und Anwendungsart unterschiedlich lange an. Auf die Haut gesprüht hält es dank unserer Formel und 19–21 % Parfümölkonzentration 8 bis sogar 12 Stunden und länger. Nach einer längeren Zeitspanne verblasst der Duft.</p>",
+            "row_content": "<p>How long the perfume lasts depends on the person and how it is applied. Sprayed on the skin, it lasts 8 to 12 hours or even longer thanks to our formula and 19–21% perfume oil concentration. The scent fades over time.</p>",
             "page": ""
           }
         },
         "collapsible_row_irweNa": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Was ist ein Duftzwilling?",
+            "heading": "What is a fragrance dupe?",
             "icon": "none",
-            "row_content": "<p>Es ist ein Eau de Parfum mit einem Duftölanteil von bis zu 19 %, inspiriert von teuren Luxusparfüms. Es bedeutet, dass der Inhalt des Flakons zwischen 19 % und 21 % Parfümöl enthält. Designerflakons enthalten zwischen 10 und 15 % Parfümöl für Eau de Toilette.</p>",
+            "row_content": "<p>It is an Eau de Parfum with up to 19% fragrance oil, inspired by expensive luxury perfumes. This means that the bottle contains between 19% and 21% perfume oil. Designer Eau de Toilette bottles contain between 10% and 15% perfume oil.</p>",
             "page": ""
           }
         },
@@ -897,9 +897,9 @@
           "type": "collapsible_row",
           "disabled": true,
           "settings": {
-            "heading": "Nein — es ist ein Eau de Parfum mit einem Duftölanteil von bis zu 19 %.",
+            "heading": "No — it is an Eau de Parfum with up to 19% fragrance oil.",
             "icon": "none",
-            "row_content": "<p>Es bedeutet, dass der Inhalt des Flakons zwischen 19 % und 21 % Parfümöl enthält. Designerflakons enthalten zwischen 10 und 15 % Parfümöl für Eau de Toilette.</p>",
+            "row_content": "<p>This means that the bottle contains between 19% and 21% perfume oil. Designer Eau de Toilette bottles contain between 10% and 15% perfume oil.</p>",
             "page": ""
           }
         }

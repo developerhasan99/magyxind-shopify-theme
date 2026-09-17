@@ -169,7 +169,7 @@
     { "type": "select", "id": "after_add", "label": "What happens after add to cart", "options": [ { "value": "drawer", "label": "Open the theme cart drawer (Dawn)" }, { "value": "cart", "label": "Go to the cart page" }, { "value": "checkout", "label": "Go straight to checkout" } ], "default": "drawer", "info": "Drawer lets the Free Gift app and the free-shipping bar run. Falls back to the cart page when the theme has no drawer." },
     { "type": "range", "id": "gift_wait_ms", "label": "Checkout mode: wait for the gift line (ms)", "min": 0, "max": 8000, "step": 500, "default": 2500 },
     { "type": "text", "id": "item_label", "label": "Line item property label per bottle", "default": "Flasche", "info": "Fulfilment reads these: Flasche 1 … Flasche 6." },
-    { "type": "text", "id": "item_text", "label": "Line item property text per bottle", "default": "{name} Inspiriert von {inspiration} - 50ml", "info": "Tokens: {name} {inspiration} {number}" },
+    { "type": "text", "id": "item_text", "label": "Line item property text per bottle", "default": "{name} Inspired by {inspiration} - 50ml", "info": "Tokens: {name} {inspiration} {number}" },
     { "type": "header", "content": "Data source" },
     { "type": "select", "id": "data_source", "label": "Catalogue source", "options": [ { "value": "store", "label": "Store (collections JSON, live)" }, { "value": "preview", "label": "Preview snapshot asset" } ], "default": "store", "info": "Preview renders the page on a store without the catalogue (design review)." },
     { "type": "text", "id": "preview_asset", "label": "Preview snapshot asset", "default": "mp-lp-preview-catalog.json" },

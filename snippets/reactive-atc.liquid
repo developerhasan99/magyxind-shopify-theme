@@ -24,8 +24,8 @@
 {% if product.variants.size > 1 %}
   {% comment %} Variant Selector {% endcomment %}
   <div class="flex justify-between items-center mb-3 !mt-6">
-    <h2 class="m-0 text-sm md:text-base font-semibold">Größe auswählen:</h2>
-    <div class="text-xs md:text-sm italic text-gray-500">80 % unserer Kunden kaufen 50 ml oder mehr</div>
+    <h2 class="m-0 text-sm md:text-base font-semibold">Select size:</h2>
+    <div class="text-xs md:text-sm italic text-gray-500">80% of our customers buy 50 ml or more</div>
   </div>
 
   <div class="grid grid-cols-3 gap-3" id="variant-selector">
@@ -55,7 +55,7 @@
           <div class="text-base font-semibold">{{ variant.title }}</div>
         </div>
         {% if variant.title contains '50' %}
-          <span class="text-xs italic text-white rounded absolute -top-2.5 left-1/2 [transform:translateX(-50%)] bg-[#c8202f] px-2 py-0.5">Beliebt</span>
+          <span class="text-xs italic text-white rounded absolute -top-2.5 left-1/2 [transform:translateX(-50%)] bg-[#c8202f] px-2 py-0.5">Popular</span>
         {% endif %}
         {% if variant.title contains '100' %}
           <span class="text-xs italic text-white rounded absolute -top-2.5 left-1/2 [transform:translateX(-50%)] bg-[#17803d] px-2 py-0.5">Bestseller</span>
@@ -149,15 +149,15 @@
         fill="#1a1a1a"></circle>
     </svg>
     <div>
-      <p class="m-0 font-semibold tracking-normal text-black leading-snug">Versand am nächsten Tag aus Berlin 🇩🇪</p>
+      <p class="m-0 font-semibold tracking-normal text-black leading-snug">Next-day dispatch from Berlin 🇩🇪</p>
     </div>
   </div>
 {% else %}
   <div class="!my-6">
     <p class="my-0 text-center font-semibold tracking-normal">
-      Geliefert nach
+      Delivered to
       {{ localization.country.name }}
-      in 5 Werktagen.
+      in 5 working days.
     </p>
   </div>
 {% endif %}
@@ -259,15 +259,15 @@
 
     <div class="col-span-2 p-4 md:p-[18px]">
       <div class="inline-block rounded-xl bg-green-100 text-green-600 px-2 py-1 text-xs font-semibold uppercase">
-        Spare 64%
+        Save 64%
       </div>
       <h3 class="my-2 tracking-normal font-semibold text-base md:text-lg">
-        Unser bestes Angebot: Bundle zusammenstellen!
+        Our best offer: build your bundle!
       </h3>
       <div class="m-0 tracking-normal text-black text-sm md:text-base">
-        Nur
+        Only
         <strong>{{ bundle_product.price | divided_by: 8 | money }}</strong>
-        pro Flasche
+        per bottle
       </div>
     </div>
   </a>

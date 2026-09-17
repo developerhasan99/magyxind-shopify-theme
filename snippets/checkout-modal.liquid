@@ -51,8 +51,8 @@
       {% endif %}
     </div>
     <div class="p-6 md:p-10 flex flex-col justify-center bg-[#f7f7f7]">
-      <h3 class="text-xl md:text-2xl font-bold tracking-tight mb-2 mt-0">Kein Name. Kein Hinweis. Nur ein Versprechen.</h3>
-      <p class="text-lg text-black italic my-0">Unser bestgehütetes Geheimnis, exklusiv für dich ausgewählt.</p>
+      <h3 class="text-xl md:text-2xl font-bold tracking-tight mb-2 mt-0">No name. No clue. Just a promise.</h3>
+      <p class="text-lg text-black italic my-0">Our best-kept secret, selected exclusively for you.</p>
       <h4 class="text-2xl font-semibold mb-2 mt-4">{{ mystery_product.title }}</h4>
       <a href="#reviews" class="flex gap-1 items-center no-underline text-gray-700 scroll-smooth">
         <img
@@ -68,19 +68,19 @@
       <div class="text-2xl font-bold text-black mb-6">{{ mystery_product.price | money }}
         {% if mystery_product.compare_at_price > mystery_product.price %}
           <span class="text-sm text-gray-500 line-through">{{ mystery_product.compare_at_price | money }}</span>
-          <span class="text-sm text-green-600">{{ mystery_product.compare_at_price | minus: mystery_product.price | times: 100.0 | divided_by: mystery_product.compare_at_price | round }}% Spare</span>
+          <span class="text-sm text-green-600">{{ mystery_product.compare_at_price | minus: mystery_product.price | times: 100.0 | divided_by: mystery_product.compare_at_price | round }}% Save</span>
         {% endif %}
       </div>
       <div class="flex flex-col gap-4">
         <button
           type="button"
           class="shimmer-btn [font-family:'Plus_Jakarta_Sans'] px-6 py-3 rounded-lg font-medium cursor-pointer border-none text-base hover:bg-[#17803d] bg-[#146b32] text-white hover:opacity-90 flex justify-center"
-          id="checkout-modal-confirm">Mein Geheimnis enthüllen
+          id="checkout-modal-confirm">Reveal my secret
         </button>
         <button
           type="button"
           class="[font-family:'Plus_Jakarta_Sans'] px-6 py-3 rounded-lg font-medium cursor-pointer border-2 border-solid border-gray-300 text-base bg-white text-gray-700 hover:opacity-90"
-          id="checkout-modal-cancel">Nein danke</button>
+          id="checkout-modal-cancel">No thanks</button>
       </div>
     </div>
   </div>

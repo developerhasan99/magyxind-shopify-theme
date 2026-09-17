@@ -36,7 +36,7 @@
     FAM_PREFIX = String(pick(S.familyPrefix, 'family:')).toLowerCase(); BRAND_PREFIX = String(pick(S.brandPrefix, 'marke:')).toLowerCase();
     AFTER_ADD = pick(S.afterAdd, 'drawer');
     GIFT_WAIT = parseInt(pick(S.giftWaitMs, 2500), 10) || 0;
-    ITEM_LABEL = pick(S.itemLabel, 'Flasche'); ITEM_TEXT = pick(S.itemText, '{name} Inspiriert von {inspiration} - 50ml');
+    ITEM_LABEL = pick(S.itemLabel, 'Flasche'); ITEM_TEXT = pick(S.itemText, '{name} Inspired by {inspiration} - 50ml');
     PREVIEW = pick(S.dataSource, 'store') === 'preview'; PREVIEW_URL = pick(S.previewUrl, '');
     ROT_MS = parseInt(pick(S.rotatorIntervalMs, 3000), 10) || 3000;
     PAGE = parseInt(pick(S.cardsPerPage, 12), 10) || 12;

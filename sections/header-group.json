@@ -19,7 +19,7 @@
         "background_color": "#000000",
         "background_color_2": "#e32402",
         "prepend_text": "St. Patrick's Day-Aktion",
-        "link_text": "3 kaufen – 1 gratis",
+        "link_text": "Buy 3 – get 1 free",
         "append_text": "",
         "link": "shopify://collections/best-sellers"
       }
@@ -30,31 +30,31 @@
         "text_iDAedj": {
           "type": "text",
           "settings": {
-            "text": "3 KAUFEN- 1  GRATIS"
+            "text": "BUY 3 – GET 1 FREE"
           }
         },
         "text_QD7JEH": {
           "type": "text",
           "settings": {
-            "text": "4,6/5 Sterne (10.000+ Bewertungen)"
+            "text": "4.6/5 stars (10,000+ reviews)"
           }
         },
         "text_39tt9p": {
           "type": "text",
           "settings": {
-            "text": "KOSTENLOSER VERSAND AB 55€"
+            "text": "FREE SHIPPING ON ORDERS OVER €55"
           }
         },
         "text_DiPtyi": {
           "type": "text",
           "settings": {
-            "text": "60 TAGE GELD-ZURÜCK-GARANTIE"
+            "text": "60-DAY MONEY-BACK GUARANTEE"
           }
         },
         "text_7Mhc9j": {
           "type": "text",
           "settings": {
-            "text": "BIS ZU 95% GÜNSTIGER"
+            "text": "UP TO 95% LESS"
           }
         }
       },
@@ -90,7 +90,7 @@
           "type": "payment_icon",
           "settings": {
             "icon": "shopify://shop_images/65f2284e66ff1dcb1a272319f1ef543c429f73e2.png",
-            "label": "EU-Versand"
+            "label": "EU shipping"
           }
         },
         "payment_icon_3nUT9e": {
@@ -126,10 +126,10 @@
       "settings": {
         "primary_color": "#000000",
         "secondary_color": "#f2f2f2",
-        "top_banner_text": "BEGRENZTE STÜCKZAHL",
+        "top_banner_text": "LIMITED QUANTITIES",
         "prepend_text": "LAGERVERKAUF",
         "countdown_date": "2026/09/17 23:59:59",
-        "append_text": "KAUF 3 ZUM PREIS VON 2",
+        "append_text": "GET 3 FOR THE PRICE OF 2",
         "link": "shopify://collections/bestseller-singles"
       }
     },

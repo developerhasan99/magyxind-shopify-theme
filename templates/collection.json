@@ -24,10 +24,10 @@
       "name": "Popular Products",
       "settings": {
         "background_color": "#fcfbf9",
-        "heading": "Kaufe mehr und spare!",
+        "heading": "Buy more and save!",
         "subheading": "",
         "collection": "bestselling-bundles",
-        "show_all_button_text": "Schau dir mehr an!",
+        "show_all_button_text": "See more!",
         "padding_top": 16,
         "padding_bottom": 12
       }

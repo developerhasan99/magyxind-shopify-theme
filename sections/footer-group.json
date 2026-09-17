@@ -17,14 +17,14 @@
         "heading_yHFKeC": {
           "type": "heading",
           "settings": {
-            "heading": "Melden Sie sich für unseren Newsletter an und erhalten Sie 10 % Rabatt!",
+            "heading": "Sign up for our newsletter and get 10% off!",
             "heading_size": "h2"
           }
         },
         "paragraph_zERFgA": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Erfahre als Erster von neuen Kollektionen und exklusiven Angeboten.</p>"
+            "text": "<p>Be the first to hear about new collections and exclusive offers.</p>"
           }
         },
         "email_form_6YfwgH": {
@@ -52,7 +52,7 @@
           "type": "text",
           "settings": {
             "heading": "Magic Perfume",
-            "subtext": "<p>Magic Perfume ist eine Parfümmarke, die dir hilft, deinen ganz persönlichen Duft zu finden. Wir bieten hochwertige Parfums in praktischen Probiergrößen an.<br/></p>",
+            "subtext": "<p>Magic Perfume is a fragrance brand that helps you find your own signature scent. We offer high-quality perfumes in convenient sample sizes.<br/></p>",
             "show_social": true
           }
         },

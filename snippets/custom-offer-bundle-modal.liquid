@@ -14,21 +14,21 @@
       <div class="p-3 pt-5 border-0 border-b border-solid border-[#e3e8e5]">
         <h2 class="text-lg font-bold text-gray-900 my-0 text-center tracking-normal">
           <span x-show="$store.bundleBuilder.selectedProducts.length === $store.bundleBuilder.bundleLength">
-            Dein Bundle ist fertig!
+            Your bundle is ready!
           </span>
           <span x-show="$store.bundleBuilder.selectedProducts.length < $store.bundleBuilder.bundleLength">
-            <span>Wähle noch </span>
+            <span>Choose another </span>
             <span x-text="$store.bundleBuilder.bundleLength - $store.bundleBuilder.selectedProducts.length"></span>
             <span x-show="($store.bundleBuilder.bundleLength - $store.bundleBuilder.selectedProducts.length) === 1">
-              Duft aus
+              fragrance
             </span>
             <span x-show="($store.bundleBuilder.bundleLength - $store.bundleBuilder.selectedProducts.length) > 1">
-              Düfte aus
+              fragrances
             </span>
           </span>
         </h2>
-        <p class="my-0 text-center text-sm text-[#6b7280]">Stelle dein Bundle mit
-          <span x-text="$store.bundleBuilder.bundleLength"></span> Flaschen zusammen</p>
+        <p class="my-0 text-center text-sm text-[#6b7280]">Build your bundle with
+          <span x-text="$store.bundleBuilder.bundleLength"></span> bottles</p>
       </div>
       <div x-show="$store.bundleBuilder.selectedProducts.length < $store.bundleBuilder.bundleLength" class="px-3 py-2">
         <div class="flex gap-1.5">
@@ -39,11 +39,11 @@
           <button
             @click="$store.bundleBuilder.activeCategory = 'fuer-maenner'"
             :class="$store.bundleBuilder.activeCategory === 'fuer-maenner' ? 'border-[#22613A] bg-[#22613A] text-white hover:!text-white' : 'bg-white border-gray-200'"
-            class="px-2 py-1.5 rounded-full font-semibold border-2 border-solid cursor-pointer hover:text-[#22613A] hover:border-[#22613A]">Herren</button>
+            class="px-2 py-1.5 rounded-full font-semibold border-2 border-solid cursor-pointer hover:text-[#22613A] hover:border-[#22613A]">Men</button>
           <button
             @click="$store.bundleBuilder.activeCategory = 'fuer-frauen'"
             :class="$store.bundleBuilder.activeCategory === 'fuer-frauen' ? 'border-[#22613A] bg-[#22613A] text-white hover:!text-white' : 'bg-white border-gray-200'"
-            class="px-2 py-1.5 rounded-full font-semibold border-2 border-solid cursor-pointer hover:text-[#22613A] hover:border-[#22613A]">Damen</button>
+            class="px-2 py-1.5 rounded-full font-semibold border-2 border-solid cursor-pointer hover:text-[#22613A] hover:border-[#22613A]">Women</button>
         </div>
       </div>
       <div class="px-3 pb-3">
@@ -53,7 +53,7 @@
             </div>
             <input
             type="text"
-            placeholder="Suchen..."
+            placeholder="Search..."
             x-model="$store.bundleBuilder.searchText"
             class="block w-full p-2 pl-8 rounded-xl border-2 border-solid cursor-pointer bg-white border-gray-200 focus:outline-none focus:border-[#22613A] focus:shadow-none focus:border-2">
         </div>
@@ -76,7 +76,7 @@
             </svg>
             <span class="sr-only">{{ 'accessibility.loading' | t }}</span>
           </div>
-          <p class="font-semibold text-lg tracking-normal">Weiterleitung zur Kasse...</p>
+          <p class="font-semibold text-lg tracking-normal">Redirecting to checkout...</p>
         </div>
       </template>
       <template x-if="$store.bundleBuilder.selectedProducts.length < $store.bundleBuilder.bundleLength">
@@ -104,10 +104,10 @@
                   <div class="flex items-center gap-1.5">
                     <span
                       x-show="product.tags.some(tag => tag === 'fuer-maenner')"
-                      class="shrink-0 px-2 py-0.5 rounded-full bg-[#f1f4f2] text-[#6b7280] text-[10px] font-semibold leading-tight">Herren</span>
+                      class="shrink-0 px-2 py-0.5 rounded-full bg-[#f1f4f2] text-[#6b7280] text-[10px] font-semibold leading-tight">Men</span>
                     <span
                       x-show="product.tags.some(tag => tag === 'fuer-frauen')"
-                      class="shrink-0 px-2 py-0.5 rounded-full bg-[#f1f4f2] text-[#6b7280] text-[10px] font-semibold leading-tight">Damen</span>
+                      class="shrink-0 px-2 py-0.5 rounded-full bg-[#f1f4f2] text-[#6b7280] text-[10px] font-semibold leading-tight">Women</span>
                     <span
                       x-show="product.occasion"
                       x-html="product.occasion"

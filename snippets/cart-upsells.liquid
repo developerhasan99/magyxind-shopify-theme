@@ -5,7 +5,7 @@
 {% if upsell_collection and upsell_collection.all_products.size > 0 %}
   <div class="cart-upsell-slider my-6">
     <div class="flex items-center justify-between mb-4">
-      <h3 class="text-sm font-semibold tracking-wider uppercase">Diese werden Sie lieben</h3>
+      <h3 class="text-sm font-semibold tracking-wider uppercase">You will love these</h3>
       <div class="flex gap-2">
         <button
           type="button"
@@ -95,7 +95,7 @@
                       type="submit"
                       name="add"
                       class="w-full bg-black text-white text-xs font-semibold py-2.5 rounded hover:bg-gray-800 transition-colors cursor-pointer [&.loading]:opacity-50 [&.loading]:cursor-not-allowed [&_.path]:!stroke-white">
-                      <span>Hinzufügen</span>
+                      <span>Add</span>
                       {%- render 'loading-spinner' -%}
                     </button>
                   </div>
