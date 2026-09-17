@@ -9,25 +9,25 @@
         width="45"
         height="45">
       <div>
-        <p class="text-sm my-0">Inspiriert von:</p>
+        <p class="text-sm my-0">Inspired by:</p>
         <h4 class="font-semibold my-0 line-clamp-1 inspiration_heading">{{ product.metafields.custom.inspiration.value.name }}</h4>
       </div>
     </div>
   {% endif %}
 {% else %}
   <div class="p-3 border border-solid border-green-700 rounded-lg bg-green-50">
-    <h4 class="text-highlight font-semibold !my-0">WARME & RAUCHIGE FAMILIE</h4>
-    <p class="!my-0 text-sm">Reich, verführerisch und tief sinnlich — inspiriert von Düften wie Vanille Fatale, Black Opium und Paragon.</p>
+    <h4 class="text-highlight font-semibold !my-0">WARM & SMOKY FAMILY</h4>
+    <p class="!my-0 text-sm">Rich, seductive, and deeply sensual — inspired by fragrances such as Vanille Fatale, Black Opium, and Paragon.</p>
   </div>
 {% endif %}
 <div>
   {% if product.metafields.custom.original_retail_price.value != blank %}
-    <div>(UVP: {{ product.metafields.custom.original_retail_price.value | money_without_trailing_zeros }})</div>
+    <div>(RRP: {{ product.metafields.custom.original_retail_price.value | money_without_trailing_zeros }})</div>
   {% endif %}
   {% if product.metafields.custom.scent_intensity != blank %}
     <div class="flex items-center gap-[5px]">
-      Duftintensität:
-      <span class="text-highlight leading-4">Ausdrucksstark</span>
+      Scent intensity:
+      <span class="text-highlight leading-4">Expressive</span>
       {% assign intensity = product.metafields.custom.scent_intensity.value | times: 1 %}
       <div class="flex gap-[5px] items-center justify-center ml-1">
         {% for i in (1..3) %}
@@ -40,11 +40,11 @@
 
 {% if product.metafields.custom.google_search_text != blank %}
   <div>
-    Riecht wie diese Düfte
+    Smells like these fragrances
     <a
       target="_blank"
       class="font-bold text-green-700"
-      href="https://www.google.com/search?q={{ product.metafields.custom.google_search_text.value | url_encode }}">auf Google</a>
+      href="https://www.google.com/search?q={{ product.metafields.custom.google_search_text.value | url_encode }}">on Google</a>
   </div>
 {% endif %}
 
