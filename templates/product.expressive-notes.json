@@ -22,14 +22,6 @@
             "text": "4.7/5 stars (10,000+ reviews)"
           }
         },
-        "inspired_by_ykNwGy": {
-          "type": "inspired_by",
-          "settings": {}
-        },
-        "designer_price_VYNtA7": {
-          "type": "designer_price",
-          "settings": {}
-        },
         "custom_liquid_wVgaRG": {
           "type": "custom_liquid",
           "disabled": true,
@@ -37,10 +29,25 @@
             "custom_liquid": "{% render 'pre-atc-blocks' %}"
           }
         },
-        "custom_liquid_Wb3gBi": {
-          "type": "custom_liquid",
+        "price_MG94AW": {
+          "type": "price",
+          "disabled": true,
+          "settings": {}
+        },
+        "variant_picker_hH3Diz": {
+          "type": "variant_picker",
+          "disabled": true,
           "settings": {
-            "custom_liquid": "{% render 'scent-profiling' %}"
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "buy_buttons_eXWBwX": {
+          "type": "buy_buttons",
+          "disabled": true,
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": true
           }
         },
         "reactive_atc_LBDQE9": {
@@ -117,24 +124,6 @@
             "custom_liquid": "{% render 'variant-gift-atc' %}"
           }
         },
-        "tsr_block_mwaVHz": {
-          "type": "tsr_block",
-          "settings": {
-            "product": "6-x-50ml-parfumflaschen"
-          }
-        },
-        "money_back_8ApRWt": {
-          "type": "money_back",
-          "settings": {
-            "image": "shopify://shop_images/thimbs_up.png",
-            "title": "Try it for 60 days – completely risk-free.",
-            "text": "If you are not absolutely delighted, we will refund the full amount!"
-          }
-        },
-        "expanded_notes_iVdnJA": {
-          "type": "expanded_notes",
-          "settings": {}
-        },
         "collapsible_tab_FAAFhb": {
           "type": "collapsible_tab",
           "settings": {
@@ -155,9 +144,8 @@
         },
         "collapsible_tab_T6Fk9z": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
-            "heading": "Is this an Eau de Toilette?",
+            "heading": "Am I getting the Eau de Toilette or the Eau de Parfum?",
             "icon": "none",
             "content": "<p>No, it is an Eau de Parfum – it contains between 19% and 21% fragrance oil, depending on the perfume. Eau de Toilette, for example, contains between 5% and 15%.</p>",
             "page": ""
@@ -174,7 +162,6 @@
         },
         "collapsible_tab_TKfWP3": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
             "heading": "What is a fragrance dupe?",
             "icon": "none",
@@ -184,7 +171,6 @@
         },
         "collapsible_tab_HiNKBa": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
             "heading": "What does 19% perfume mean?",
             "icon": "none",
@@ -231,10 +217,10 @@
       "block_order": [
         "title_DkyBTh",
         "custom_rating_text_ehyqmQ",
-        "inspired_by_ykNwGy",
-        "designer_price_VYNtA7",
         "custom_liquid_wVgaRG",
-        "custom_liquid_Wb3gBi",
+        "price_MG94AW",
+        "variant_picker_hH3Diz",
+        "buy_buttons_eXWBwX",
         "reactive_atc_LBDQE9",
         "custom_liquid_QcxgR4",
         "payment_badges_FkCwVc",
@@ -243,9 +229,6 @@
         "icon_with_text_ytpGUH",
         "custom_liquid_3PYMcC",
         "custom_liquid_aeXkRF",
-        "tsr_block_mwaVHz",
-        "money_back_8ApRWt",
-        "expanded_notes_iVdnJA",
         "collapsible_tab_FAAFhb",
         "collapsible_tab_bKn87j",
         "collapsible_tab_T6Fk9z",
@@ -258,7 +241,7 @@
       "settings": {
         "enable_sticky_info": true,
         "color_scheme": "scheme-2",
-        "media_size": "medium",
+        "media_size": "large",
         "gallery_layout": "thumbnail_slider",
         "media_position": "left",
         "image_zoom": "none",
@@ -270,53 +253,39 @@
         "padding_bottom": 72
       }
     },
-    "you_may_like_KRXPbz": {
-      "type": "you-may-like",
-      "name": "You May Like",
-      "settings": {
-        "background_color": "#f7f7f7",
-        "title": "You may also like",
-        "description": "",
-        "collection": "best-sellers",
-        "button_text": "View all",
-        "button_link": "shopify://collections/best-sellers",
-        "padding_top": 0,
-        "padding_bottom": 72
-      }
-    },
     "feature_heighlights_fCUG3E": {
       "type": "feature-heighlights",
       "blocks": {
         "perks_MLz9YK": {
           "type": "perks",
           "settings": {
-            "perk_image": "shopify://shop_images/icons_eu_1.webp",
-            "perk_title": "Made in the EU",
-            "perk_content": "Vegan, cruelty-free and made in the EU."
+            "perk_image": "shopify://shop_images/Screenshot_2026-02-03_at_12.00.15_PM.png",
+            "perk_title": "Free shipping on all orders over €50!",
+            "perk_content": "This week only"
           }
         },
         "perks_NV4H3P": {
           "type": "perks",
           "settings": {
-            "perk_image": "shopify://shop_images/icons_quality_1.webp",
-            "perk_title": "French fragrance quality",
-            "perk_content": "Made with the same care as leading luxury brands."
+            "perk_image": "shopify://shop_images/Screenshot_2026-02-03_at_12.04.49_PM.png",
+            "perk_title": "Special discounts for returning customers",
+            "perk_content": "Vouchers worth up to €100"
           }
         },
         "perks_qWY7Uy": {
           "type": "perks",
           "settings": {
-            "perk_image": "shopify://shop_images/icons_guarantee_1.webp",
-            "perk_title": "60-day money-back guarantee",
-            "perk_content": "Not convinced? Return your order within 60 days for a refund."
+            "perk_image": "shopify://shop_images/Screenshot_2026-02-03_at_12.05.39_PM.png",
+            "perk_title": "Free gift wrapping",
+            "perk_content": "Personalized note of up to 100 characters"
           }
         },
         "perks_HKnHJ8": {
           "type": "perks",
           "settings": {
-            "perk_image": "shopify://shop_images/icons_time_1.webp",
-            "perk_title": "Long-lasting fragrance",
-            "perk_content": "Lasts over 12 hours on skin (some report even longer wear)."
+            "perk_image": "shopify://shop_images/Screenshot_2026-02-03_at_12.07.45_PM.png",
+            "perk_title": "Experten-Kundenservice",
+            "perk_content": "8 a.m. - 8 p.m., 7 days a week"
           }
         }
       },
@@ -343,52 +312,52 @@
         "padding_bottom": 72
       }
     },
-    "stacks_up_E9PEVz": {
+    "stacks_up_V3Jptg": {
       "type": "stacks-up",
       "blocks": {
-        "stack_bYEPRF": {
+        "stack_j4hrAW": {
           "type": "stack",
           "settings": {
             "stack_heading": "Perfume concentration",
             "stack_subheading": "More oil = longer-lasting fragrance"
           }
         },
-        "stack_6Lb6R6": {
+        "stack_cVjc8L": {
           "type": "stack",
           "settings": {
             "stack_heading": "Lasts 8–12 hours on skin",
             "stack_subheading": "Lasts longer than most designer EDTs"
           }
         },
-        "stack_CD4imb": {
+        "stack_WGARJy": {
           "type": "stack",
           "settings": {
             "stack_heading": "90% less than the designer price",
             "stack_subheading": "No compromise on quality"
           }
         },
-        "stack_ERHc6h": {
+        "stack_RhLGdN": {
           "type": "stack",
           "settings": {
             "stack_heading": "Exactly the same scent as the original",
             "stack_subheading": "Created with the same fragrance accords"
           }
         },
-        "stack_RUmWyb": {
+        "stack_NbEBJw": {
           "type": "stack",
           "settings": {
             "stack_heading": "Dispatch within 24 hours",
             "stack_subheading": "No waiting in store"
           }
         },
-        "stack_MD4Nma": {
+        "stack_KeHNHr": {
           "type": "stack",
           "settings": {
             "stack_heading": "Tierversuchsfreie Formel",
             "stack_subheading": "Pure ingredients, gentle on skin"
           }
         },
-        "stack_P8fdyi": {
+        "stack_4c8gUK": {
           "type": "stack",
           "settings": {
             "stack_heading": "60-day money-back guarantee",
@@ -397,13 +366,13 @@
         }
       },
       "block_order": [
-        "stack_bYEPRF",
-        "stack_6Lb6R6",
-        "stack_CD4imb",
-        "stack_ERHc6h",
-        "stack_RUmWyb",
-        "stack_MD4Nma",
-        "stack_P8fdyi"
+        "stack_j4hrAW",
+        "stack_cVjc8L",
+        "stack_WGARJy",
+        "stack_RhLGdN",
+        "stack_NbEBJw",
+        "stack_KeHNHr",
+        "stack_4c8gUK"
       ],
       "name": "Stacks Up",
       "settings": {
@@ -456,7 +425,7 @@
         "heading_PJdXGz": {
           "type": "heading",
           "settings": {
-            "content": "Why do EU-made perfumes feel different?",
+            "content": "EU Produktion",
             "heading_type": "h2",
             "font_size": 40,
             "mobile_font_size": 24,
@@ -466,7 +435,7 @@
         "text_Mhwr3T": {
           "type": "text",
           "settings": {
-            "content": "<p>Made in EU facilities with ingredients and formulations that meet IFRA requirements.</p><ul><li>Phthalatefrei</li><li>Ohne Parabene</li><li>Vegan</li><li>Not tested on animals</li><li>IFRA-zertifiziert</li><li>Nach EU-Standards entwickelt</li><li>No known endocrine disruptors</li></ul><p>We make perfumes to strict European cosmetics standards</p>",
+            "content": "<p>Our EU production guarantees the highest quality standards and allows us to monitor and control every step of the manufacturing process. </p><p>From selecting high-quality raw materials to carefully filling every bottle, we ensure that every product meets our high standards of quality and craftsmanship.</p>",
             "mobile_content": "",
             "font_size": 18,
             "text_color": "#000000"
@@ -510,10 +479,10 @@
         "padding_bottom": 72
       }
     },
-    "massive_review_nBEgXq": {
+    "massive_review_x3kr6P": {
       "type": "massive-review",
       "blocks": {
-        "review_zMqL4P": {
+        "review_YE8xbk": {
           "type": "review",
           "settings": {
             "content": "<p>“This was my first order here and I am really impressed. I will not be buying my perfume anywhere else from now on. I had never found a fragrance dupe that smelled truly authentic and stayed consistently good before.”</p>",
@@ -524,7 +493,7 @@
             "product": ""
           }
         },
-        "review_7yim9e": {
+        "review_pjzVtk": {
           "type": "review",
           "settings": {
             "review_image": "shopify://shop_images/magic_ugc_female_01.webp",
@@ -537,10 +506,9 @@
             "product": ""
           }
         },
-        "review_8xigEg": {
+        "review_cCdWNE": {
           "type": "review",
           "settings": {
-            "review_image": "shopify://shop_images/image_1.jpg",
             "content": "<p>“All three fragrances I ordered smell really good and last a long time, too. They are really close to the originals. The only thing was delivery, which took a little longer. But honestly – I still placed another order straight away 😄 You just need a little patience.”</p>",
             "author": "Clara P.",
             "date": "vor 2 Tagen",
@@ -549,7 +517,7 @@
             "product": ""
           }
         },
-        "review_6QR3Gr": {
+        "review_mVXcif": {
           "type": "review",
           "settings": {
             "content": "<p>“I spent ages looking for fragrances that smell high-quality and last a long time. This is exactly the kind of fragrance I was looking for.”</p>",
@@ -560,7 +528,7 @@
             "product": ""
           }
         },
-        "review_iV6gep": {
+        "review_mVgcRB": {
           "type": "review",
           "settings": {
             "review_image": "shopify://shop_images/magic_ugc_male_02.webp",
@@ -573,10 +541,9 @@
             "product": ""
           }
         },
-        "review_GqfVXQ": {
+        "review_er43HU": {
           "type": "review",
           "settings": {
-            "review_image": "shopify://shop_images/magic_175_review.png",
             "content": "<p>“One of my absolute favorite fragrances. It arrived really quickly and smells great.”</p>",
             "author": "Jonas Hartmann",
             "date": "vor 2 Tagen",
@@ -585,7 +552,7 @@
             "product": ""
           }
         },
-        "review_ERC3KR": {
+        "review_HtrkLp": {
           "type": "review",
           "settings": {
             "content": "<p>“My girlfriend immediately said I smelled good 😄 I have been using it almost every day since.”</p>",
@@ -596,7 +563,7 @@
             "product": ""
           }
         },
-        "review_ymx9Ar": {
+        "review_cpYCMR": {
           "type": "review",
           "settings": {
             "content": "<p>“At first I was a little worried because delivery was delayed. But once the perfume arrived and the scent settled – wow, just incredibly good.”</p>",
@@ -607,7 +574,7 @@
             "product": ""
           }
         },
-        "review_bFmTKe": {
+        "review_9A3Vkt": {
           "type": "review",
           "settings": {
             "review_image": "shopify://shop_images/magic_ugc_male_01.webp",
@@ -620,10 +587,9 @@
             "product": ""
           }
         },
-        "review_n8wdzh": {
+        "review_aRdYJg": {
           "type": "review",
           "settings": {
-            "review_image": "shopify://shop_images/image.jpg",
             "content": "<p>\"It is perfect and beautiful 🥰🥰🥰\"</p>",
             "author": "Lidis A.",
             "date": "vor 2 Monaten",
@@ -632,7 +598,7 @@
             "product": ""
           }
         },
-        "review_GU9kmc": {
+        "review_RACQeU": {
           "type": "review",
           "settings": {
             "content": "<p>\"Smells very good, I was captivated\"</p>",
@@ -643,10 +609,9 @@
             "product": ""
           }
         },
-        "review_LAw3iT": {
+        "review_gB8CCL": {
           "type": "review",
           "settings": {
-            "review_image": "shopify://shop_images/2026-07-22_16h43_29.png",
             "content": "<p>“The perfumes smell perfect and the scents last a really long time. Truly great quality.”<br/></p>",
             "author": "Kamila G.",
             "date": "vor 3 Monaten",
@@ -655,7 +620,7 @@
             "product": ""
           }
         },
-        "review_tTXhkb": {
+        "review_ehGRfn": {
           "type": "review",
           "settings": {
             "content": "<p>\"Smells just like Luna Rossa Carbon, but much cheaper. I cannot believe how close it is.\"</p>",
@@ -666,10 +631,9 @@
             "product": ""
           }
         },
-        "review_yr8irU": {
+        "review_Rqd3wd": {
           "type": "review",
           "settings": {
-            "review_image": "shopify://shop_images/magic_revie.png",
             "content": "<p>“A scent that makes you feel fresh and well-groomed straight away. Not too overpowering, just right. 👌”</p>",
             "author": "Michael R.",
             "date": "vor 4 Monaten",
@@ -678,7 +642,7 @@
             "product": ""
           }
         },
-        "review_6TE4gd": {
+        "review_Hr7HnX": {
           "type": "review",
           "settings": {
             "content": "<p>“I have known Creed Aventus for years and I have to say honestly: this is one of the best dupes I have found so far. The pineapple and vanilla notes really come through, and you cannot complain about the price.”</p>",
@@ -689,7 +653,7 @@
             "product": ""
           }
         },
-        "review_GrCHwT": {
+        "review_YhxM98": {
           "type": "review",
           "settings": {
             "review_image": "shopify://shop_images/magic_ugc_female_02.webp",
@@ -702,7 +666,7 @@
             "product": ""
           }
         },
-        "review_7GXX3z": {
+        "review_eciJLK": {
           "type": "review",
           "settings": {
             "content": "<p>“Beautiful scent that really lasts. Lovely, sweet and warm. Delivery was really quick, too. I will definitely order again.”</p>",
@@ -713,20 +677,18 @@
             "product": ""
           }
         },
-        "review_RrtMJC": {
+        "review_DUqExk": {
           "type": "review",
           "settings": {
-            "review_image": "shopify://shop_images/avatar.png",
             "content": "<p>“I am really happy with Magic Perfume. The scent comes very close to the original and lasts really well on me. The packaging was neat and the bottle feels high-quality, too. Definitely a great alternative for the price.”</p>",
             "author": "Alina M",
-            "author_image": "shopify://shop_images/avatar.png",
             "date": "vor 5 Monaten",
             "rating": 5,
             "show_verified_badge": false,
             "product": ""
           }
         },
-        "review_jH9miU": {
+        "review_FfmhdU": {
           "type": "review",
           "settings": {
             "content": "<p>“The products are really high-quality and at a really good price.”</p>",
@@ -737,7 +699,7 @@
             "product": ""
           }
         },
-        "review_QLcFHp": {
+        "review_HFYTjN": {
           "type": "review",
           "settings": {
             "content": "<p>\"Great fragrances, great products, no problems.\"</p>",
@@ -748,7 +710,7 @@
             "product": ""
           }
         },
-        "review_mxb6Dd": {
+        "review_ydnEaq": {
           "type": "review",
           "settings": {
             "content": "<p>\"The product arrived nicely packaged. The perfume was not broken or leaking and was in good condition. The scent is perfect and did not smell bad. I love it, high quality\"</p>",
@@ -759,7 +721,7 @@
             "product": ""
           }
         },
-        "review_8ncqeL": {
+        "review_jYa3Uw": {
           "type": "review",
           "settings": {
             "content": "<p>\"From the service to the product, the experience was phenomenal. I would happily buy again anytime.\"</p>",
@@ -770,7 +732,7 @@
             "product": ""
           }
         },
-        "review_kb6JUw": {
+        "review_bxHkWi": {
           "type": "review",
           "settings": {
             "content": "<p>\"Great product! A super affordable alternative to designer perfumes. The scent lasts a long time and you get a lot for your money\"</p>",
@@ -781,7 +743,7 @@
             "product": ""
           }
         },
-        "review_AWWKBN": {
+        "review_ctzLLM": {
           "type": "review",
           "settings": {
             "content": "<p>\"Omg I loved it, wow! Just like the original and it lasts all day!❤️‍🔥❤️‍🔥\"</p>",
@@ -792,7 +754,7 @@
             "product": ""
           }
         },
-        "review_JBa4aa": {
+        "review_cHLLaK": {
           "type": "review",
           "settings": {
             "content": "<p>\"The scent of this perfume is really rich and I love how beautiful the bottle and its design are. I would definitely use it again.\"</p>",
@@ -803,7 +765,7 @@
             "product": ""
           }
         },
-        "review_TPwfkB": {
+        "review_rWhDjf": {
           "type": "review",
           "settings": {
             "content": "<p>\"I like it! Love this scent. Good fragrance\"</p>",
@@ -814,7 +776,7 @@
             "product": ""
           }
         },
-        "review_jLHA6W": {
+        "review_qcDdkE": {
           "type": "review",
           "settings": {
             "content": "<p>\"Great product, smells fantastic. People are always asking me about my scent and what I use\"</p>",
@@ -825,7 +787,7 @@
             "product": ""
           }
         },
-        "review_XEwxX6": {
+        "review_pTd7GK": {
           "type": "review",
           "settings": {
             "content": "<p>\"Great brand and great products!\"</p>",
@@ -836,7 +798,7 @@
             "product": ""
           }
         },
-        "review_Nr79Yz": {
+        "review_dVP8Qf": {
           "type": "review",
           "settings": {
             "content": "<p>\"After a small delay, I finally received my Magic Perfume perfumes and they are just right! I can hardly believe how closely they match the originals. For reference, I got \"Ylang Ylang Rose Jasmine\" and \"Aldehydes Rose Sandalwood\"; they are really lovely fragrances\"</p>",
@@ -847,7 +809,7 @@
             "product": ""
           }
         },
-        "review_7p4fLw": {
+        "review_LpbJ7w": {
           "type": "review",
           "settings": {
             "content": "<p>\"Very good brand, I love the packaging and the aroma\"</p>",
@@ -858,7 +820,7 @@
             "product": ""
           }
         },
-        "review_TAGfzJ": {
+        "review_dCJgxK": {
           "type": "review",
           "settings": {
             "content": "<p>\"I am a big cologne fan, so I am picky when it comes to clones, but Magic Perfume has completely won me over. I originally ordered the Sauvage clone from the homepage and recognized the scent as soon as I sprayed it. I now own 4 Magic Perfume fragrances and love them all. I have 3 more on the way thanks to their bundle offers. If you want something affordable that delivers designer performance, I cannot recommend them enough.\"</p>",
@@ -869,7 +831,7 @@
             "product": ""
           }
         },
-        "review_XkyBeh": {
+        "review_aJ3TjE": {
           "type": "review",
           "settings": {
             "content": "<p>\"I am very happy with the perfume from this brand. It has a lovely scent just like the original and is cheaper. I will definitely buy it again\"</p>",
@@ -880,7 +842,7 @@
             "product": ""
           }
         },
-        "review_DPwJR7": {
+        "review_UqtW8y": {
           "type": "review",
           "settings": {
             "content": "<p>\"This summer I received a sample of Creed Aventus as a gift and really liked it, but I could not buy the original, so I looked for dupes. I found Magic Perfume and ordered \"Pineapple Smoke Vanilla\". It arrived in about a week and smells really good, very close to my original sample. Very happy with the product, especially for the price\"</p>",
@@ -891,7 +853,7 @@
             "product": ""
           }
         },
-        "review_xynE4c": {
+        "review_jJFGk9": {
           "type": "review",
           "settings": {
             "content": "<p>\"I tried their 7.5ml fragrance samples and, to my surprise, I liked them. I placed a second order, but this time I chose the larger bottles. I have to say my orders arrived on time and they delivered the scents I like!\"</p>",
@@ -904,57 +866,57 @@
         }
       },
       "block_order": [
-        "review_zMqL4P",
-        "review_7yim9e",
-        "review_8xigEg",
-        "review_6QR3Gr",
-        "review_iV6gep",
-        "review_GqfVXQ",
-        "review_ERC3KR",
-        "review_ymx9Ar",
-        "review_bFmTKe",
-        "review_n8wdzh",
-        "review_GU9kmc",
-        "review_LAw3iT",
-        "review_tTXhkb",
-        "review_yr8irU",
-        "review_6TE4gd",
-        "review_GrCHwT",
-        "review_7GXX3z",
-        "review_RrtMJC",
-        "review_jH9miU",
-        "review_QLcFHp",
-        "review_mxb6Dd",
-        "review_8ncqeL",
-        "review_kb6JUw",
-        "review_AWWKBN",
-        "review_JBa4aa",
-        "review_TPwfkB",
-        "review_jLHA6W",
-        "review_XEwxX6",
-        "review_Nr79Yz",
-        "review_7p4fLw",
-        "review_TAGfzJ",
-        "review_XkyBeh",
-        "review_DPwJR7",
-        "review_xynE4c"
+        "review_YE8xbk",
+        "review_pjzVtk",
+        "review_cCdWNE",
+        "review_mVXcif",
+        "review_mVgcRB",
+        "review_er43HU",
+        "review_HtrkLp",
+        "review_cpYCMR",
+        "review_9A3Vkt",
+        "review_aRdYJg",
+        "review_RACQeU",
+        "review_gB8CCL",
+        "review_ehGRfn",
+        "review_Rqd3wd",
+        "review_Hr7HnX",
+        "review_YhxM98",
+        "review_eciJLK",
+        "review_DUqExk",
+        "review_FfmhdU",
+        "review_HFYTjN",
+        "review_ydnEaq",
+        "review_jYa3Uw",
+        "review_bxHkWi",
+        "review_ctzLLM",
+        "review_cHLLaK",
+        "review_rWhDjf",
+        "review_qcDdkE",
+        "review_pTd7GK",
+        "review_dVP8Qf",
+        "review_LpbJ7w",
+        "review_dCJgxK",
+        "review_aJ3TjE",
+        "review_UqtW8y",
+        "review_jJFGk9"
       ],
       "disabled": true,
       "name": "Massive Review",
       "settings": {
         "background_color": "#fcfbf9",
         "heading": "Kundenrezensionen",
-        "review_text": "4.7 out of 5 stars, based on over 10,000 reviews",
+        "review_text": "4.7/5 stars based on over 10,000 reviews",
         "button_text": "Show more reviews",
         "button_link": "",
         "padding_top": 72,
         "padding_bottom": 72
       }
     },
-    "massive_review_i7YfR7": {
+    "massive_review_NJE3Wi": {
       "type": "massive-review",
       "blocks": {
-        "review_e4tyFT": {
+        "review_gCBc4U": {
           "type": "review",
           "settings": {
             "review_image": "shopify://shop_images/Camila_Sena_Oliveira_1.webp",
@@ -966,7 +928,7 @@
             "product": ""
           }
         },
-        "review_hREC4X": {
+        "review_Xx96Ki": {
           "type": "review",
           "settings": {
             "review_image": "shopify://shop_images/2026-07-02_16h41_42.webp",
@@ -979,7 +941,7 @@
             "product": ""
           }
         },
-        "review_HFfYdG": {
+        "review_Xizbff": {
           "type": "review",
           "settings": {
             "review_image": "shopify://shop_images/2026-07-02_16h55_49.webp",
@@ -991,7 +953,7 @@
             "product": ""
           }
         },
-        "review_6Bz66W": {
+        "review_BjgKBi": {
           "type": "review",
           "settings": {
             "content": "<p>“I spent ages looking for fragrances that smell high-quality and last a long time. This is exactly the kind of fragrance I was looking for.”</p>",
@@ -1002,7 +964,7 @@
             "product": ""
           }
         },
-        "review_439bzK": {
+        "review_JjXbYT": {
           "type": "review",
           "settings": {
             "review_image": "shopify://shop_images/2026-07-02_16h58_13.webp",
@@ -1014,7 +976,7 @@
             "product": ""
           }
         },
-        "review_DMBqm3": {
+        "review_NKLVBf": {
           "type": "review",
           "settings": {
             "review_image": "shopify://shop_images/magic_175_review.png",
@@ -1026,7 +988,7 @@
             "product": ""
           }
         },
-        "review_j8GiAf": {
+        "review_ACmJMV": {
           "type": "review",
           "settings": {
             "content": "<p>“My girlfriend immediately said I smelled good 😄 I have been using it almost every day since.”</p>",
@@ -1037,7 +999,7 @@
             "product": ""
           }
         },
-        "review_HWGQfe": {
+        "review_LQedHA": {
           "type": "review",
           "settings": {
             "content": "<p>“At first I was a little worried because delivery was delayed. But once the perfume arrived and the scent settled – wow, just incredibly good.”</p>",
@@ -1048,7 +1010,7 @@
             "product": ""
           }
         },
-        "review_VgD9Lj": {
+        "review_ECgkVG": {
           "type": "review",
           "settings": {
             "review_image": "shopify://shop_images/261_revie.webp",
@@ -1061,7 +1023,7 @@
             "product": ""
           }
         },
-        "review_A6jBDG": {
+        "review_m9b3He": {
           "type": "review",
           "settings": {
             "review_image": "shopify://shop_images/2026-07-02_16h41_42.webp",
@@ -1073,7 +1035,7 @@
             "product": ""
           }
         },
-        "review_C8wcnU": {
+        "review_EN3Rtf": {
           "type": "review",
           "settings": {
             "content": "<p>\"Smells very good, I was captivated\"</p>",
@@ -1084,7 +1046,7 @@
             "product": ""
           }
         },
-        "review_GL3tGJ": {
+        "review_xPpQWp": {
           "type": "review",
           "settings": {
             "review_image": "shopify://shop_images/2026-07-22_16h43_29.png",
@@ -1096,7 +1058,7 @@
             "product": ""
           }
         },
-        "review_KaM9DW": {
+        "review_BMzxiW": {
           "type": "review",
           "settings": {
             "review_image": "shopify://shop_images/Mounissa_Soilihi.webp",
@@ -1108,7 +1070,7 @@
             "product": ""
           }
         },
-        "review_yEezif": {
+        "review_tkdFrD": {
           "type": "review",
           "settings": {
             "review_image": "shopify://shop_images/magic_revie.png",
@@ -1120,7 +1082,7 @@
             "product": ""
           }
         },
-        "review_xpRGQh": {
+        "review_K6tWdA": {
           "type": "review",
           "settings": {
             "review_image": "shopify://shop_images/Daria_Kononenko_2.webp",
@@ -1132,7 +1094,7 @@
             "product": ""
           }
         },
-        "review_9LQJeV": {
+        "review_rVUxgk": {
           "type": "review",
           "settings": {
             "review_image": "shopify://shop_images/Carolina_Maresca_2.webp",
@@ -1144,7 +1106,7 @@
             "product": ""
           }
         },
-        "review_cEfbPr": {
+        "review_QdFxgN": {
           "type": "review",
           "settings": {
             "content": "<p>“Beautiful scent that really lasts. Lovely, sweet and warm. Delivery was really quick, too. I will definitely order again.”</p>",
@@ -1155,7 +1117,7 @@
             "product": ""
           }
         },
-        "review_tTHHx9": {
+        "review_rBKNHg": {
           "type": "review",
           "settings": {
             "review_image": "shopify://shop_images/2026-07-02_16h57_29.webp",
@@ -1167,7 +1129,7 @@
             "product": ""
           }
         },
-        "review_qUnDiG": {
+        "review_j74fXJ": {
           "type": "review",
           "settings": {
             "content": "<p>“The products are really high-quality and at a really good price.”</p>",
@@ -1178,7 +1140,7 @@
             "product": ""
           }
         },
-        "review_46hmLa": {
+        "review_xbMWYz": {
           "type": "review",
           "settings": {
             "review_image": "shopify://shop_images/Anastasiia_Komisarova.webp",
@@ -1190,7 +1152,7 @@
             "product": ""
           }
         },
-        "review_hNDNqY": {
+        "review_hKxRrd": {
           "type": "review",
           "settings": {
             "content": "<p>\"The product arrived nicely packaged. The perfume was not broken or leaking and was in good condition. The scent is perfect and did not smell bad. I love it, high quality\"</p>",
@@ -1201,7 +1163,7 @@
             "product": ""
           }
         },
-        "review_4rX7Nw": {
+        "review_wzbXDe": {
           "type": "review",
           "settings": {
             "content": "<p>\"From the service to the product, the experience was phenomenal. I would happily buy again anytime.\"</p>",
@@ -1212,7 +1174,7 @@
             "product": ""
           }
         },
-        "review_fmxbLy": {
+        "review_xkRH9B": {
           "type": "review",
           "settings": {
             "content": "<p>\"Great product! A super affordable alternative to designer perfumes. The scent lasts a long time and you get a lot for your money\"</p>",
@@ -1223,7 +1185,7 @@
             "product": ""
           }
         },
-        "review_B93iEk": {
+        "review_MizX9U": {
           "type": "review",
           "settings": {
             "content": "<p>\"Omg I loved it, wow! Just like the original and it lasts all day!❤️‍🔥❤️‍🔥\"</p>",
@@ -1234,7 +1196,7 @@
             "product": ""
           }
         },
-        "review_WC6d6y": {
+        "review_8gAhie": {
           "type": "review",
           "settings": {
             "content": "<p>\"The scent of this perfume is really rich and I love how beautiful the bottle and its design are. I would definitely use it again.\"</p>",
@@ -1245,7 +1207,7 @@
             "product": ""
           }
         },
-        "review_Uxjqd9": {
+        "review_qebfKq": {
           "type": "review",
           "settings": {
             "content": "<p>\"I like it! Love this scent. Good fragrance\"</p>",
@@ -1256,7 +1218,7 @@
             "product": ""
           }
         },
-        "review_me8F4q": {
+        "review_cDHpY7": {
           "type": "review",
           "settings": {
             "content": "<p>\"Great product, smells fantastic. People are always asking me about my scent and what I use\"</p>",
@@ -1267,7 +1229,7 @@
             "product": ""
           }
         },
-        "review_FwefEg": {
+        "review_cEQeBG": {
           "type": "review",
           "settings": {
             "content": "<p>\"Great brand and great products!\"</p>",
@@ -1278,7 +1240,7 @@
             "product": ""
           }
         },
-        "review_UB4krx": {
+        "review_CYxE66": {
           "type": "review",
           "settings": {
             "content": "<p>\"After a small delay, I finally received my Magic Perfume perfumes and they are just right! I can hardly believe how closely they match the originals. For reference, I got \"Ylang Ylang Rose Jasmine\" and \"Aldehydes Rose Sandalwood\"; they are really lovely fragrances\"</p>",
@@ -1289,7 +1251,7 @@
             "product": ""
           }
         },
-        "review_rNdWPc": {
+        "review_LiPT43": {
           "type": "review",
           "settings": {
             "content": "<p>\"Very good brand, I love the packaging and the aroma\"</p>",
@@ -1300,7 +1262,7 @@
             "product": ""
           }
         },
-        "review_jmfKcV": {
+        "review_dQKAPG": {
           "type": "review",
           "settings": {
             "content": "<p>\"I am a big cologne fan, so I am picky when it comes to clones, but Magic Perfume has completely won me over. I originally ordered the Sauvage clone from the homepage and recognized the scent as soon as I sprayed it. I now own 4 Magic Perfume fragrances and love them all. I have 3 more on the way thanks to their bundle offers. If you want something affordable that delivers designer performance, I cannot recommend them enough.\"</p>",
@@ -1311,7 +1273,7 @@
             "product": ""
           }
         },
-        "review_i6N6iB": {
+        "review_rXgh6A": {
           "type": "review",
           "settings": {
             "content": "<p>\"I am very happy with the perfume from this brand. It has a lovely scent just like the original and is cheaper. I will definitely buy it again\"</p>",
@@ -1322,7 +1284,7 @@
             "product": ""
           }
         },
-        "review_fkfhcR": {
+        "review_g9nLNK": {
           "type": "review",
           "settings": {
             "content": "<p>\"This summer I received a sample of Creed Aventus as a gift and really liked it, but I could not buy the original, so I looked for dupes. I found Magic Perfume and ordered \"Pineapple Smoke Vanilla\". It arrived in about a week and smells really good, very close to my original sample. Very happy with the product, especially for the price\"</p>",
@@ -1333,7 +1295,7 @@
             "product": ""
           }
         },
-        "review_gdfNie": {
+        "review_kAytBk": {
           "type": "review",
           "settings": {
             "content": "<p>\"I tried their 7.5ml fragrance samples and, to my surprise, I liked them. I placed a second order, but this time I chose the larger bottles. I have to say my orders arrived on time and they delivered the scents I like!\"</p>",
@@ -1346,40 +1308,40 @@
         }
       },
       "block_order": [
-        "review_e4tyFT",
-        "review_hREC4X",
-        "review_HFfYdG",
-        "review_6Bz66W",
-        "review_439bzK",
-        "review_DMBqm3",
-        "review_j8GiAf",
-        "review_HWGQfe",
-        "review_VgD9Lj",
-        "review_A6jBDG",
-        "review_C8wcnU",
-        "review_GL3tGJ",
-        "review_KaM9DW",
-        "review_yEezif",
-        "review_xpRGQh",
-        "review_9LQJeV",
-        "review_cEfbPr",
-        "review_tTHHx9",
-        "review_qUnDiG",
-        "review_46hmLa",
-        "review_hNDNqY",
-        "review_4rX7Nw",
-        "review_fmxbLy",
-        "review_B93iEk",
-        "review_WC6d6y",
-        "review_Uxjqd9",
-        "review_me8F4q",
-        "review_FwefEg",
-        "review_UB4krx",
-        "review_rNdWPc",
-        "review_jmfKcV",
-        "review_i6N6iB",
-        "review_fkfhcR",
-        "review_gdfNie"
+        "review_gCBc4U",
+        "review_Xx96Ki",
+        "review_Xizbff",
+        "review_BjgKBi",
+        "review_JjXbYT",
+        "review_NKLVBf",
+        "review_ACmJMV",
+        "review_LQedHA",
+        "review_ECgkVG",
+        "review_m9b3He",
+        "review_EN3Rtf",
+        "review_xPpQWp",
+        "review_BMzxiW",
+        "review_tkdFrD",
+        "review_K6tWdA",
+        "review_rVUxgk",
+        "review_QdFxgN",
+        "review_rBKNHg",
+        "review_j74fXJ",
+        "review_xbMWYz",
+        "review_hKxRrd",
+        "review_wzbXDe",
+        "review_xkRH9B",
+        "review_MizX9U",
+        "review_8gAhie",
+        "review_qebfKq",
+        "review_cDHpY7",
+        "review_cEQeBG",
+        "review_CYxE66",
+        "review_LiPT43",
+        "review_dQKAPG",
+        "review_rXgh6A",
+        "review_g9nLNK",
+        "review_kAytBk"
       ],
       "name": "Massive Review",
       "settings": {
@@ -1406,17 +1368,16 @@
   },
   "order": [
     "main",
-    "you_may_like_KRXPbz",
     "feature_heighlights_fCUG3E",
     "scent_breakdown_pqKDL9",
-    "stacks_up_E9PEVz",
+    "stacks_up_V3Jptg",
     "manus_smell_journey_Bg46P3",
     "manus_why_it_last_jW8Eag",
     "manus_comparison_Vdxngc",
     "image_and_text_EFE4gB",
     "popular_products_BptEUV",
-    "massive_review_nBEgXq",
-    "massive_review_i7YfR7",
+    "massive_review_x3kr6P",
+    "massive_review_NJE3Wi",
     "1770288371f70b6dc1",
     "floating_atc_FiLij8"
   ]
