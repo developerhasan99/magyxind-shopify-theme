@@ -220,7 +220,7 @@
         "text_gHnd8C": {
           "type": "text",
           "settings": {
-            "content": "<p>Made in EU facilities with ingredients and formulations that meet IFRA requirements.</p><ul><li>Phthalate-free</li><li>Paraben-free</li><li>Vegan</li><li>Not tested on animals</li><li>IFRA-certified</li><li>Developed to EU standards</li><li>No known endocrine disruptors</li></ul><p>We make perfumes to strict European cosmetics standards</p>",
+            "content": "<p>Made in EU facilities with ingredients and formulations that meet IFRA requirements.</p><ul><li>Phthalate-free</li><li>Paraben-free</li><li>Vegan</li><li>Not tested on animals</li><li>No known endocrine disruptors</li></ul><p>We make perfumes to strict European cosmetics standards</p>",
             "mobile_content": "",
             "font_size": 18,
             "text_color": "#000000"
@@ -234,6 +234,7 @@
       "name": "Image and Text",
       "settings": {
         "background_color": "#ffffff",
+        "image": "shopify://shop_images/MAGYX_Site_02.webp",
         "rounded_image": true,
         "image_placement": "0",
         "mobile_image_placement": "under_heading",
