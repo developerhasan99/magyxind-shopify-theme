@@ -84,9 +84,9 @@
         "secondary_color": "#f2f2f2",
         "top_banner_text": "LIMITED QUANTITIES",
         "prepend_text": "WAREHOUSE SALE",
-        "countdown_date": "2026/09/17 23:59:59",
+        "countdown_date": "",
         "append_text": "GET 3 FOR THE PRICE OF 2",
-        "link": "shopify://collections/bestseller-singles"
+        "link": "shopify://collections/bestsellers"
       }
     },
     "header": {
