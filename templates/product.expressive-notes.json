@@ -425,23 +425,23 @@
         "button_text": "Discover more fragrances"
       }
     },
-    "image_and_text_EFE4gB": {
+    "image_and_text_4mLCA3": {
       "type": "image-and-text",
       "blocks": {
-        "heading_PJdXGz": {
+        "heading_mkiTAV": {
           "type": "heading",
           "settings": {
-            "content": "EU Produktion",
+            "content": "Why do EU-made perfumes feel different?",
             "heading_type": "h2",
             "font_size": 40,
             "mobile_font_size": 24,
             "text_color": "#000000"
           }
         },
-        "text_Mhwr3T": {
+        "text_pppHg4": {
           "type": "text",
           "settings": {
-            "content": "<p>Our EU production guarantees the highest quality standards and allows us to monitor and control every step of the manufacturing process. </p><p>From selecting high-quality raw materials to carefully filling every bottle, we ensure that every product meets our high standards of quality and craftsmanship.</p>",
+            "content": "<p>Made in EU facilities with ingredients and formulations that meet IFRA requirements.</p><ul><li>Phthalate-free</li><li>Paraben-free</li><li>Vegan</li><li>Not tested on animals</li><li>No known endocrine disruptors</li></ul><p>We make perfumes to strict European cosmetics standards</p>",
             "mobile_content": "",
             "font_size": 18,
             "text_color": "#000000"
@@ -449,12 +449,13 @@
         }
       },
       "block_order": [
-        "heading_PJdXGz",
-        "text_Mhwr3T"
+        "heading_mkiTAV",
+        "text_pppHg4"
       ],
       "name": "Image and Text",
       "settings": {
         "background_color": "#ffffff",
+        "image": "shopify://shop_images/MAGYX_Site_02.webp",
         "rounded_image": true,
         "image_placement": "0",
         "mobile_image_placement": "under_heading",
@@ -1356,7 +1357,7 @@
     "manus_smell_journey_Bg46P3",
     "manus_why_it_last_jW8Eag",
     "manus_comparison_Vdxngc",
-    "image_and_text_EFE4gB",
+    "image_and_text_4mLCA3",
     "popular_products_BptEUV",
     "massive_review_x3kr6P",
     "massive_review_NJE3Wi",
