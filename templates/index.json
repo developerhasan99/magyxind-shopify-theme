@@ -179,12 +179,13 @@
     },
     "popular_products_3gqnEi": {
       "type": "popular-products",
+      "disabled": true,
       "name": "Popular Products",
       "settings": {
         "background_color": "#f7f7f7",
         "heading": "New fragrances",
         "subheading": "",
-        "collection": "neue-dufte",
+        "collection": "bestsellers",
         "show_all_button_text": "View all bestsellers",
         "padding_top": 32,
         "padding_bottom": 72
@@ -197,7 +198,7 @@
         "background_color": "#f7f7f7",
         "heading": "BESTSELLERS",
         "subheading": "",
-        "collection": "bestseller-singles",
+        "collection": "bestsellers",
         "show_all_button_text": "View all bestsellers",
         "padding_top": 72,
         "padding_bottom": 72
@@ -291,7 +292,7 @@
           "type": "collection",
           "settings": {
             "tab_title": "🔥 BESTSELLERS",
-            "collection": "best-sellers",
+            "collection": "bestsellers",
             "button_text": "View all"
           }
         },
@@ -299,7 +300,7 @@
           "type": "collection",
           "settings": {
             "tab_title": "FOR WOMEN",
-            "collection": "fuer-frauen",
+            "collection": "for-women",
             "button_text": "View all"
           }
         },
@@ -307,7 +308,7 @@
           "type": "collection",
           "settings": {
             "tab_title": "FOR MEN",
-            "collection": "fuer-maenner",
+            "collection": "for-men",
             "button_text": "View all"
           }
         }
@@ -419,7 +420,6 @@
           "settings": {
             "content": "<p>“Honestly, one of the best fragrances I have smelled in years. The notes are incredibly good. This is definitely staying in my collection.”</p>",
             "author": "Emilia Wagner",
-            "author_image": "shopify://shop_images/magic_ugc_female_01.webp",
             "date": "2 days ago",
             "rating": 4,
             "show_verified_badge": true,
@@ -497,7 +497,6 @@
           "settings": {
             "content": "<p>“I was unsure at first because of the price, but the quality really won me over. I would buy it again straight away.”</p>",
             "author": "Matthias Krüger",
-            "author_image": "shopify://shop_images/magic_ugc_male_01.webp",
             "date": "2 months ago",
             "rating": 5,
             "show_verified_badge": false,
